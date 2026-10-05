@@ -1,0 +1,148 @@
+export const metadata = {
+  title: "Guide de dépannage Transport Fever 3 : corriger les crashs, les ralentissements et les erreurs d'itinéraire",
+  description: "Maîtrisez le dépannage de Transport Fever 3 grâce à notre guide complet pour résoudre les plantages au démarrage, les ralentissements en fin de partie, les blocages de signalisation et les conflits de mods.",
+  category: "guide",
+  date: "2026-10-05",
+};
+
+Construire un empire du transport complexe et transcontinental est l'une des expériences de simulation les plus gratifiantes, mais des imprévus techniques peuvent faire dérailler des heures de planification en un instant. Maîtriser le **dépannage de Transport Fever 3** est essentiel pour assurer le bon fonctionnement de vos réseaux logistiques et protéger vos sauvegardes d'une perte catastrophique. Que vous soyez confronté à des retours au bureau inopinés lors de la génération de la carte ou à des impasses de signalisation tenaces sur des lignes à haute densité, ce guide complet de **dépannage de Transport Fever 3** apporte des solutions concrètes pour remettre votre réseau sur les rails.
+
+---
+
+## Résolution des plantages au démarrage, des écrans noirs et des erreurs de moteur
+
+Peu de problèmes sont aussi frustrants que de lancer sa partie de tycoon pour subir un retour brutal au bureau (CTD) ou un écran noir perpétuel. L'instabilité initiale du moteur graphique provient généralement de conflits avec l'API de rendu, de composants d'exécution système manquants, de caches de configuration corrompus ou de pilotes graphiques obsolètes tentant de gérer des pipelines visuels avancés.
+
+Face à un plantage au démarrage, identifier si la défaillance survient avant ou pendant le chargement initial de la vue 3D constitue une étape indispensable du **dépannage de Transport Fever 3**. Si le jeu plante avant l'affichage du menu principal, le problème est presque toujours lié à la communication matérielle au niveau du système ou à des restrictions de droits d'accès aux fichiers.
+
+```
+Ordre de vérification diagnostique :
+1. Vérification de la compatibilité des pilotes graphiques (GPU)
+2. Vidage du cache de rendu et des shaders
+3. Vérification des fichiers du jeu (Steam / Système)
+4. Réinitialisation des paramètres de configuration utilisateur
+```
+
+Si votre jeu plante pendant la génération du monde, la saturation de la mémoire ou des scripts de base corrompus en sont souvent la cause. Le tableau ci-dessous détaille les erreurs de lancement courantes ainsi que les solutions de récupération éprouvées.
+
+### Problèmes courants au démarrage et solutions
+
+| Symptôme du problème | Cause racine probable | Action principale recommandée | Probabilité de succès |
+| :--- | :--- | :--- | :--- |
+| **Plantage à 0 %–10 % du chargement** | Incompatibilité d'API Direct3D/Vulkan ou blocage du pilote | Mettre à jour les pilotes graphiques ; changer de moteur de rendu dans la configuration | Élevée |
+| **Écran noir avec son** | Résolution non prise en charge ou fréquence de rafraîchissement incompatible | Forcer le mode fenêtré via les paramètres de lancement (`-windowed`) | Élevée |
+| **Plantage à 90 % de la génération du monde** | Épuisement de la RAM / VRAM système sur les cartes Immenses/Mégalomanes | Augmenter la mémoire virtuelle de Windows (fichier d'échange) à au moins 16 Go | Modérée |
+| **Retour bureau immédiat sans message (CTD)** | Profil utilisateur corrompu ou conflit de cache de shaders | Supprimer le cache temporaire des shaders dans le répertoire local de l'application | Très élevée |
+| **Éléments visuels manquants / Shaders roses** | Fichiers de jeu incomplets ou téléchargement de mise à jour interrompu | Effectuer une vérification de l'intégrité des fichiers sur la plateforme | Élevée |
+
+Pour vider rapidement les caches graphiques corrompus sans perdre votre progression :
+- Rendez-vous dans le répertoire de données d'application local (`%APPDATA%` ou dossier local du jeu).
+- Localisez les dossiers `shader_cache` et `texture_cache`.
+- Supprimez les fichiers temporaires qu'ils contiennent lorsque le jeu est fermé.
+- Redémarrez votre machine et lancez le jeu pour déclencher une nouvelle passe de compilation des shaders.
+
+---
+
+## Optimisation des performances en fin de partie et ralentissements de simulation
+
+À mesure que vos villes s'étendent, que les chaînes de production se multiplient et que des milliers de citoyens simulés calculent leurs trajets quotidiens, les performances du jeu se dégradent inévitablement. Contrairement aux jeux d'action classiques où les goulets d'étranglement se situent au niveau du processeur graphique (GPU), les simulations de transport à grande échelle exercent une pression immense sur l'IPC monocœur du processeur (CPU) et la latence de la mémoire système.
+
+Chaque passager et chaque caisse de marchandise effectue un calcul d'itinéraire en temps réel sur l'ensemble de votre réseau. Lorsque la fréquence d'actualisation de la simulation (tick rate) passe sous le seuil du temps réel, les trains saccadent aux intersections même si votre compteur d'images par seconde affiche des valeurs acceptables. Appliquer une approche méthodique de **dépannage de Transport Fever 3** face à la surcharge de simulation permet de restaurer une vitesse de jeu fluide pour vos vastes empires.
+
+### Impact des paramètres visuels et de simulation sur les performances
+
+| Catégorie de paramètre | Cible matérielle | Coût en performances | Impact sur le gameplay | Paramètre recommandé |
+| :--- | :--- | :--- | :--- | :--- |
+| **Fréquence de simulation (Tick Rate)** | CPU (limité par le thread) | Extrême (Fin de partie) | Gère les calculs d'itinéraires des passagers | Dynamique / Équilibré |
+| **Qualité des ombres** | GPU / VRAM | Élevé | Profondeur d'environnement et éclairage | Moyen (Perte minime) |
+| **Détail de la géométrie** | CPU et GPU | Modéré à élevé | Distance d'affichage du matériel roulant/des voies | Élevé (Plus bas sur cartes immenses) |
+| **Textures du terrain** | VRAM du GPU | Modéré | Précision des niveaux de relief au sol | Élevé (Dépend de la VRAM) |
+| **Densité de la foule / véhicules** | CPU (Multi-cœur) | Élevé | Trafic visuel ambiant sur les routes urbaines | Bas ou Moyen |
+
+Les retours de la communauté soulignent qu'une croissance urbaine non contrôlée est la cause première des ralentissements en fin de partie. Lorsque plusieurs mégalopoles fusionnent, le nombre de calculs individuels par agent grimpe de façon exponentielle.
+
+Pour limiter efficacement les saccades de simulation :
+- **Consolidez les lignes de rabattement :** Évitez de faire circuler des dizaines de petits bus à moitié vides sur les mêmes axes urbains ; privilégiez des boucles de tramway ou de métro léger à haute capacité.
+- **Supprimez les infrastructures inutilisées :** Les tronçons de route isolés et les voies ferrées orphelines continuent d'être interrogés par le moteur de pathfinding. Supprimez les voies en impasse désertes.
+- **Ajustez le fichier d'échange système :** Assurez-vous que votre fichier d'échange (pagefile) se situe sur un SSD NVMe haute vitesse afin de réduire les micro-gels lors du chargement massif d'éléments.
+
+---
+
+## Correction des erreurs d'itinéraire, des trajets fantômes et des blocages de signalisation
+
+Rien ne paralyse une économie plus vite que de voir le redoutable avertissement jaune « Pas d'itinéraire » clignoter au-dessus de vos lignes express stratégiques. Les échecs de génération d'itinéraire surviennent lorsque le moteur du jeu ne parvient pas à calculer un trajet continu et valide entre les points de passage ou quais désignés.
+
+Une cause fréquente de paralysie ferroviaire réside dans une mauvaise signalisation par cantons. Lorsque deux trains opposés entrent dans un même canton ou se retrouvent face à face sur une liaison à double voie, le blocage fige des couloirs entiers. Intégrer des méthodes ciblées de **dépannage de Transport Fever 3** pour la planification des trajets permettra de dénouer rapidement vos réseaux logistiques complexes.
+
+```
+Points d'étranglement fréquents de signalisation :
+[Gare A] ===(Signal de canton)===> [Voie à sens unique] <===(Erreur double sens)=== [Gare B]
+                                        ^
+                              Point critique de blocage
+```
+
+Avant de restructurer tout un triage ferroviaire, vérifiez l'alimentation électrique continue des voies et l'orientation des aiguillages sur l'ensemble du tronçon concerné.
+
+### Résolution des conflits de signalisation et d'itinéraire
+
+| Message d'erreur / Indicateur | Mécanisme sous-jacent | Liste de contrôle | Technique de résolution |
+| :--- | :--- | :--- | :--- |
+| **« Pas d'itinéraire » sur le train** | Discontinuité physique ou coupure d'électrification | Caténaire aérienne, ruptures de voies, aiguillages traversées | Reconnecter les nœuds de jonction ; vérifier la continuité de la caténaire |
+| **Blocage nez à nez** | Signalisation bidirectionnelle sur un tronçon à voie unique | Orientation des signaux, présence de voie d'évitement | Poser des signaux à sens unique ; ajouter des voies de croisement avec signaux d'itinéraire |
+| **Train bloqué à un signal vert** | Quai de destination occupé ou canton réservé en aval | Canton de signalisation suivant, assignation des voies en gare | Assigner des voies alternatives dans le gestionnaire de ligne |
+| **Marchandises non générées en gare** | Zone de chalandise non couverte ou chaîne de production rompue | Zones d'attraction, demande commerciale dans la ville cible | Ajouter un court relais routier ; vérifier l'approvisionnement de l'usine finale |
+
+Lors du tracé de locomotives électriques, un simple mètre manquant de caténaire au niveau d'une bifurcation interrompt silencieusement toute une ligne. Utilisez le filtre d'affichage de l'électrification pour inspecter méthodiquement vos lignes d'un terminus à l'autre.
+
+---
+
+## Gestion des conflits de mods et de la corruption des sauvegardes
+
+Les mods conçus par la communauté apportent une variété exceptionnelle au jeu, introduisant des locomotives authentiques, des gares régionales réalistes et des chaînes industrielles étendues. Cependant, accumuler des dizaines de modifications entraîne de l'instabilité, des conflits de scripts et des dépendances d'éléments manquantes pouvant rendre les sauvegardes inutilisables.
+
+La gestion du contenu personnalisé est un pilier fondamental du **dépannage de Transport Fever 3** moderne. Lorsqu'un patch des développeurs met à jour les frameworks de script sous-jacents, les mods plus anciens font souvent planter le jeu dès le chargement.
+
+L'expérience des joueurs montre qu'isoler les éléments problématiques nécessite une procédure de tri binaire ordonnée plutôt qu'une désinstallation aléatoire.
+
+### Protocole de tri des mods et d'isolation des conflits
+
+| Étape de dépannage | Portée ciblée | Action requise | Résultat attendu |
+| :--- | :--- | :--- | :--- |
+| **Phase 1 : Examen des logs** | Fichier `stdout.txt` de l'application | Localiser les mentions terminales `Assertion Failed` ou `Lua exception` | Identifie précisément le modèle ou le nom du script manquant |
+| **Phase 2 : Méthode dichotomique** | Bibliothèque de mods actifs | Désactiver 50 % des mods suspects, lancer une sauvegarde test | Divise par deux le nombre de coupables potentiels à chaque cycle |
+| **Phase 3 : Audit des dépendances** | Bibliothèques fondamentales | Vérifier que les frameworks de base (ex. packs d'assets de base) se chargent en premier | Résout les erreurs d'accroche et de références de textures manquantes |
+| **Phase 4 : Remplacement d'assets** | Véhicules / bâtiments en jeu | Utiliser des modèles de substitution si un bâtiment clé est supprimé | Prévient les retours au bureau causés par des pointeurs nuls dans les sauvegardes |
+
+Lorsqu'une sauvegarde refuse de se charger après une mise à jour, consultez le [portail officiel d'assistance d'Urban Games](https://www.urbangames.com) ainsi que les hubs communautaires pour repérer d'éventuelles régressions de patch connues. Souvent, les créateurs de mods publient des correctifs de compatibilité légers quelques heures après une mise à jour majeure du jeu.
+
+Pour protéger votre progression, effectuez toujours des sauvegardes manuelles incrémentielles avant d'activer de nouveaux scripts modifiant le gameplay ou des packs de refonte globale.
+
+---
+
+## Grésillements audio, problèmes de manette et artefacts visuels
+
+Bien que les plantages du moteur et les voies brisées soient au centre des discussions techniques, des problèmes secondaires tels que les craquements audio, les scintillements visuels et les décalages de l'interface utilisateur peuvent sérieusement dégrader vos sessions de simulation.
+
+Les saccades audio surviennent généralement lors de mouvements rapides de caméra au-dessus de vastes complexes industriels où des centaines de sources sonores superposées (klaxons de trains, machines d'usines, circulation routière) submergent les canaux de mixage logiciel.
+
+Corriger les artefacts visuels et les soucis de synchronisation des périphériques garantit que votre démarche de **dépannage de Transport Fever 3** couvre à la fois la jouabilité et la fidélité audiovisuelle :
+
+- **Configurer le taux d'échantillonnage audio :** Réglez la sortie sonore par défaut de votre système d'exploitation sur 16 bits ou 24 bits à 48 000 Hz. Des fréquences de qualité studio plus élevées (comme 192 000 Hz) peuvent causer des sous-charges de mémoire tampon dans des moteurs de simulation complexes.
+- **Corriger le flou de mise à l'échelle de l'interface :** Si vous jouez sur des écrans 1440p ou 4K, désactivez la mise à l'échelle DPI de Windows sur l'exécutable du jeu afin d'éliminer les polices floues et les boîtes de collision de boutons mal alignées.
+- **Atténuer les déchirements d'écran (screen tearing) :** Activez FreeSync/G-Sync ou passez en mode fenêtré sans bordure afin de synchroniser la fréquence de rafraîchissement de l'écran avec le flux variable d'images générées par la simulation.
+
+---
+
+## Foire aux questions (FAQ)
+
+### Quelle est l'étape de dépannage la plus efficace dans Transport Fever 3 pour les retours inopinés au bureau ?
+L'étape initiale la plus fiable consiste à inspecter le fichier journal local `stdout.txt` situé dans le dossier des données utilisateur du jeu. Les vingt dernières lignes de ce fichier répertorient les derniers appels mémoire, les chemins de fichiers manquants ou les exceptions de script directement responsables de la fermeture inattendue.
+
+### Pourquoi mes gares de marchandises refusent-elles d'accepter ou de stocker les biens manufacturés ?
+Les terminaux de fret n'acceptent les marchandises que si une chaîne de transport fonctionnelle et continue relie l'extraction des matières premières à un consommateur actif demandant cet article spécifique. Vérifiez que vos camions ou trains de livraison effectuent leur arrêt dans le rayon de chalandise des bâtiments commerciaux ou industriels qui ont besoin de cette cargaison.
+
+### Comment empêcher les trains de faire demi-tour de manière inattendue en gare ?
+Les trains font demi-tour lorsque l'itinéraire vers l'avant qui leur est assigné est bloqué par un autre véhicule, une configuration de signaux invalide ou une modification involontaire des voies en aval. Placer des signaux à sens unique dédiés juste à la sortie des aiguillages de gare empêche l'algorithme de pathfinding de tenter des itinéraires inversés non autorisés.
+
+### Pourquoi la vitesse de simulation se fige-t-elle en fin de partie alors que ma caméra bouge de façon fluide ?
+Cette différence indique un goulet d'étranglement au niveau du processeur (CPU) pour la simulation, plutôt qu'une défaillance graphique. Le thread de rendu continue d'afficher des images fluides, mais le moteur de calcul d'itinéraires monocœur du CPU ne parvient plus à traiter en temps réel les milliers de requêtes de trajets simultanées. Réduisez le taux de croissance des villes et regroupez les lignes de desserte redondantes pour rétablir une vitesse de simulation normale.

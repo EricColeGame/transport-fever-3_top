@@ -1,0 +1,116 @@
+export const metadata = {
+  title: "Cycle jour-nuit dans Transport Fever 3 : fonctionnalités complètes, éclairage et mécaniques",
+  description: "Découvrez comment le cycle jour-nuit de Transport Fever 3 transforme la simulation logistique, les horaires dynamiques, l'éclairage des véhicules et l'immersion visuelle.",
+  category: "features",
+  date: "2026-10-05",
+}
+
+Les passionnés de simulation de transport ont passé des années à observer de tentaculaires corridors ferroviaires et des nœuds métropolitains animés fonctionner sous un éternel soleil de midi. L'arrivée d'un véritable **cycle jour-nuit dans Transport Fever 3** change fondamentalement la donne, modifiant la façon dont les magnats virtuels perçoivent le passage du temps sur leurs réseaux. Pour les joueurs qui conçoivent des lignes à haute capacité et d'immenses gares de triage, comprendre l'impact du **cycle jour-nuit de Transport Fever 3** sur le réalisme visuel comme sur l'efficacité des itinéraires est crucial pour bâtir un empire des transports de premier ordre.
+
+Les simulateurs de transport modernes doivent concilier une immersion esthétique époustouflante avec des mécaniques logistiques approfondies. Les opus précédents ont posé les bases structurelles de réseaux ferroviaires et routiers sophistiqués, mais les joueurs ressentaient constamment un manque alors que les villes s'activaient sur des cycles de 24 heures sans aucune variation lumineuse. L'intégration d'un véritable rythme circadien dans la simulation apporte de l'atmosphère, de la profondeur technique et de nouveaux niveaux opérationnels à explorer.
+
+## Évolution de l'atmosphère : pourquoi la communauté réclamait un système jour-nuit
+
+Pendant des années, les moddeurs de la communauté ont tenté de simuler l'aube et le crépuscule dans les précédents opus de la franchise, mais les limitations du moteur empêchaient la projection de lumière en temps réel et les adaptations d'horaires. L'introduction du **cycle jour-nuit dans Transport Fever 3** répond à l'une des demandes les plus persistantes de la communauté depuis le lancement du jeu original. Dans les volets antérieurs, les joueurs vivaient une progression historique s'étalant sur plusieurs décennies, mais les variations temporelles quotidiennes étaient totalement absentes de la dimension visuelle.
+
+Les environnements urbains révèlent une personnalité entièrement différente lorsque les ombres s'allongent sur les faisceaux de triage et que les tours de bureaux s'illuminent étage par étage. Alors que le trafic des navetteurs culmine en journée et s'apaise après le coucher du soleil, les concepteurs de réseaux découvrent un bac à sable véritablement vivant plutôt qu'un rendu statique.
+
+| Étape clé de la simulation | Transport Fever (2016) | Transport Fever 2 (2019) | Transport Fever 3 |
+| :--- | :--- | :--- | :--- |
+| **Modèle d'éclairage** | Soleil directionnel statique | Angle du soleil dynamique par carte | Arc solaire et lunaire dynamique complet sur 24 heures |
+| **Éclairage des véhicules** | Textures émissives uniquement | Cônes de phares basiques | Faisceaux lumineux volumétriques et éclairage d'habitacle |
+| **Lueur urbaine** | Aucune | Lueur de fenêtres limitée | Éclairage public procédural, enseignes lumineuses et effet de halo (bloom) urbain |
+| **Rythme temporel** | Progression par calendrier uniquement | Calendrier avec curseurs de vitesse de jeu | Découplage entre dates du calendrier et heure de la journée |
+| **Ombres environnementales** | Ombres dures statiques | Ombres en cascade (cascaded shadow maps) | Occlusion ambiante et projection d'ombres dynamiques en ray-tracing |
+
+Selon les retours d'expérience des joueurs lors des premières parties en mode bac à sable, la transition visuelle entre la fin d'après-midi et le crépuscule offre un sentiment d'échelle sans précédent. Des axes de fret banals en plein midi se transforment soudainement en épopées cinématiques à travers des vallées montagneuses embrumées, alors que de puissants projecteurs jumelés percent la brume crépusculaire.
+
+## Fidélité visuelle, éclairage volumétrique et esthétique
+
+D'un point de vue esthétique, le **cycle jour-nuit de Transport Fever 3** s'appuie sur des techniques de rendu modernes pour métamorphoser les paysages industriels. Chaque source de lumière de l'environnement virtuel — des feux de signalisation ferroviaires aux lampadaires des autoroutes surélevées — projette un éclairage physique dans la scène environnante. Lorsque des locomotives à vapeur entrent en gare au crépuscule, les voitures de passagers diffusent de chaudes teintes d'ambiance sur des quais bondés de voyageurs.
+
+L'immersion visuelle ne se résume pas à une simple rotation de la voûte céleste (skybox). Le modèle de diffusion atmosphérique simule la façon dont la lumière filtre à travers différentes conditions météorologiques, accentuant le réalisme lors des trajets pluvieux en soirée ou des aubes glacées en hiver.
+
+| Créneau horaire | Ambiance environnementale | Sources d'éclairage principales | Points forts visuels pour les joueurs |
+| :--- | :--- | :--- | :--- |
+| **Aube (05:00 – 07:00)** | Brume dorée rasante, ombres fraîches | Soleil levant à l'horizon, réverbères résiduels | Longues ombres ferroviaires, reflets de rosée sur le toit des voitures |
+| **Midi (11:00 – 14:00)** | Éclairage zénithal net, contraste marqué | Lumière solaire directe descendante | Visibilité parfaite pour la pose complexe des voies et de la signalisation |
+| **Heure dorée (17:00 – 19:00)** | Halo orangé intense, ombres étirées | Lumière rasante du soleil, premiers éclairages intérieurs des bâtiments | Reflets spectaculaires sur les voies fluviales et les gares vitrées |
+| **Crépuscule (19:00 – 21:00)** | Dégradé de ciel indigo, lueur déclinante à l'horizon | Lampadaires, phares des véhicules, portiques de signalisation actifs | Enseignes lumineuses contrastées dans les quartiers commerciaux |
+| **Nuit (21:00 – 04:00)** | Obscurité bleu marine profonde, accents lunaires | Phares, lanternes d'aiguillage, projecteurs d'usine | Zones industrielles baignées sous de puissants projecteurs à vapeur de sodium |
+
+Les joueurs adeptes du mode photo cinématique y trouveront d'innombrables opportunités créatives. Admirer un train de conteneurs intermodal d'un kilomètre franchir des lacets ferroviaires découpés sur l'horizon nocturne propulse la qualité visuelle des jeux de gestion de transport vers les standards contemporains de référence.
+
+## Impact sur le gameplay : heures de pointe, horaires et planification du fret
+
+Au-delà de l'esthétique, la logistique concrète du **cycle jour-nuit de Transport Fever 3** redéfinit la gestion des grilles horaires et les courbes de demande des voyageurs. Dans la planification réelle des transports, les lignes de voyageurs subissent de fortes poussées lors des heures de pointe du matin et du soir, tandis que la nuit est presque exclusivement réservée au fret ferroviaire lourd et à la maintenance programmée.
+
+Les retours de la communauté indiquent que les villes génèrent désormais des flux de voyageurs de manière dynamique selon l'heure locale. Les quartiers d'affaires du centre-ville exigent d'importantes dessertes de banlieue dès 07h00, tandis que les complexes industriels imposent des variations de demande régulières incitant à une allocation intelligente de la flotte tout au long de la journée.
+
+```
+00:00 - 05:00 : Fret lourd & faible fréquence de passagers
+06:00 - 09:00 : Heure de pointe du matin (forte demande de passagers)
+10:00 - 15:00 : Trafic équilibré de voyageurs intercités et régionaux
+16:00 - 19:00 : Heure de pointe du soir & réapprovisionnement industriel
+20:00 - 23:00 : Réduction hors pointe & remisage au dépôt
+```
+
+Gérer le volume de passagers dans ces conditions changeantes évite que des trains de banlieue vides ne grèvent la trésorerie de l'entreprise pendant les accalmies nocturnes. Vous pouvez explorer les étapes de développement de la franchise sur le [site officiel d'Urban Games](https://www.urbangames.com/) pour voir comment les mécaniques de simulation sont passées de simples liaisons point à point à des réseaux urbains complexes.
+
+| Créneau d'exploitation | Niveau de demande passagers | Priorité du transport de fret | Stratégie de flotte recommandée |
+| :--- | :--- | :--- | :--- |
+| **Pointe du matin (06:00 – 09:00)** | Très élevé (100 %) | Faible à modéré (40 %) | Déployer des rames de longueur maximale ; réduire l'intervalle |
+| **Creux de mi-journée (09:00 – 16:00)** | Modéré (60 %) | Élevé (80 %) | Exploiter des grilles régulières ; combiner liaisons express et omnibus |
+| **Pointe du soir (16:00 – 19:00)** | Extrême (110 %) | Faible (30 %) | Donner la priorité aux sillons voyageurs express sur les corridors industriels |
+| **Logistique nocturne (20:00 – 05:00)** | Très faible (15 %) | Extrême (100 %) | Acheminer le fret lourd longue distance ; effectuer la révision des flottes au dépôt |
+
+Ce rythme d'exploitation oblige les joueurs à concevoir des voies d'évitement flexibles et des lignes de contournement dédiées. Faire circuler des trains de charbon lourds et lents à travers les grandes gares métropolitaines pendant les heures de pointe peut provoquer une congestion catastrophique sur plusieurs lignes régionales.
+
+## Optimisation des performances et adaptation du moteur graphique
+
+Le rendu de centaines de points lumineux dynamiques parallèlement à des milliers de citoyens simulés indépendamment sollicite fortement le matériel récent. L'optimisation des performances avec le **cycle jour-nuit de Transport Fever 3** exige un équilibre entre ombres dynamiques et fréquence d'images stable, en particulier lors du survol de mégapoles denses.
+
+Les développeurs ont conçu le pipeline graphique de manière à exclure (culling) les sources lumineuses hors champ et à moduler les ombres en cascade selon la distance de caméra. Les joueurs disposant d'une configuration intermédiaire peuvent ajuster certaines passes d'ombres sans sacrifier l'ambiance féerique d'un panorama urbain illuminé.
+
+| Profil de réglage | Résolution cible | Résolution et distance des ombres | Éclairage volumétrique | Configuration matérielle recommandée |
+| :--- | :--- | :--- | :--- | :--- |
+| **Faible** | 1080p | Ombres basses ; limite à 250 m | Désactivé (bloom en screen-space uniquement) | Processeur 4 cœurs, GPU 4 Go VRAM, 16 Go de RAM |
+| **Moyen** | 1080p / 1440p | Ombres moyennes ; limite à 600 m | Faisceaux de phares basiques | Processeur 6 cœurs, GPU 6 Go VRAM, 16 Go de RAM |
+| **Élevé** | 1440p | Ombres en cascade élevées ; 1200 m | Brouillard et phares entièrement volumétriques | Processeur 8 cœurs, GPU 8 Go VRAM, 32 Go de RAM |
+| **Ultra** | 4K | Ombres de contact sur toute la scène ; 2500 m | Occlusion ambiante en ray-tracing | Processeur moderne 8+ cœurs, GPU 12+ Go VRAM, 32 Go de RAM |
+
+Les tests comparatifs de la communauté suggèrent que désactiver le brouillard volumétrique complet pendant les transitions nocturnes permet d'obtenir un gain de fluidité allant jusqu'à 20 % sur les cartes chargées. Conserver les phares des véhicules sur le rendu dynamique standard garantit des déplacements de caméra fluides au-dessus des grands échangeurs sans micro-saccades.
+
+## Conseils stratégiques pour gérer les lignes de transit en nocturne
+
+Maîtriser son réseau pendant le **cycle jour-nuit de Transport Fever 3** implique d'instaurer des règles d'affectation flexibles pour les véhicules et d'optimiser la visibilité des infrastructures. Lorsque les chantiers de construction se prolongent tard dans la nuit virtuelle, la pose d'entrées de gares complexes ou d'échangeurs autoroutiers requiert une appréciation spatiale claire.
+
+Voici des recommandations concrètes pour bâtir et administrer un réseau résilient de jour comme de nuit :
+
+*   **Mettre en place des voies de garage pour le fret nocturne :** Aménagez des voies de triage en périphérie des grands terminus voyageurs afin que les longs trains de marchandises puissent patienter jusqu'à la fin de la pointe du matin.
+*   **Exploiter le remisage au dépôt :** Configurez les paramètres de ligne pour que les rames de banlieue excédentaires rejoignent les ateliers de maintenance après 20h00, réduisant ainsi considérablement les coûts d'exploitation.
+*   **Distinguer l'éclairage des itinéraires par couleur :** Installez des teintes d'éclairage spécifiques pour les dépôts et les triages (par ex., jaune sodium vs LED blanc neutre) afin de repérer instantanément les goulots d'étranglement sur la carte dans l'obscurité.
+*   **Activer le mode de construction diurne :** Si les ombres nocturnes masquent le nivellement du terrain ou l'alignement des passages à niveau, utilisez l'option d'interface pour figer temporairement la lumière du jour lors de la pose d'aiguillages délicats.
+
+| Défi de gestion | Cause pendant le cycle de 24 heures | Solution stratégique optimale |
+| :--- | :--- | :--- |
+| **Surcharge des quais en gare** | Les vagues de navetteurs aux heures de pointe matinales dépassent la capacité des lignes | Ajouter des rames automotrices supplémentaires ou resserrer les fréquences de départ |
+| **Importants retards sur les voies principales** | Des convois de fret lourd et lents bloquent les lignes de banlieue vers 08h30 | Utiliser des signaux de canton pour prioriser les trains de voyageurs sur des voies d'évitement dédiées |
+| **Coûts d'exploitation nocturnes excessifs** | Des trains de 10 voitures circulent à vide entre 01:00 et 04:00 | Réduire la fréquence de passage ou suspendre partiellement les dessertes nocturnes |
+| **Erreurs d'alignement lors de la construction** | Mauvaise visibilité lors du positionnement des piles de ponts ou des aiguillages la nuit | Allumer les projecteurs de l'éditeur ou verrouiller la vue diurne durant les phases de travaux |
+
+En combinant une planification méticuleuse et une conception d'infrastructure soignée, les magnats du rail peuvent rentabiliser chaque heure du cadran opérationnel. La nuit devient alors un atout plutôt qu'une simple touche visuelle, ouvrant la voie à un transport industriel ininterrompu pendant que la population virtuelle dort.
+
+## Foire aux questions
+
+### Les joueurs peuvent-ils désactiver ou figer le cycle jour-nuit de Transport Fever 3 ?
+Oui. Les joueurs préférant une lumière du jour constante pour construire ou effectuer des tests de performance peuvent désactiver la progression temporelle dans les paramètres du jeu. Il est possible de figer le soleil à un angle spécifique (comme un midi perpétuel) ou d'ajuster librement la vitesse du cycle journalier indépendamment de la progression calendaire.
+
+### La transition jour-nuit modifie-t-elle automatiquement la demande des passagers ?
+D'après les retours des joueurs sur les premières versions, le système modélise des flux de passagers dynamiques. Les gares connaissent de nettes augmentations le matin et en soirée, correspondant aux trajets domicile-travail réels, suivies d'une baisse marquée au cours de la nuit, ce qui libère des créneaux propices aux convois de fret.
+
+### Les phares des véhicules ont-ils un impact significatif sur les performances ?
+Bien que les phares soient des sources de lumière dynamique, les pipelines de rendu modernes utilisent le rendu différé (deferred shading) pour limiter l'impact sur les performances. Toutefois, dans les immenses triages comprenant des dizaines de locomotives en activité, réduire la qualité des ombres des phares dans le menu graphique apporte un gain de fluidité appréciable.
+
+### Comment le cycle jour-nuit interagit-il avec l'année calendaire ?
+L'écoulement de la journée est découplé des dates du calendrier historique. Un cycle jour-nuit complet n'équivaut pas à une année entière ; les joueurs peuvent configurer le nombre de cycles journaliers nécessaires avant que le calendrier du jeu n'avance, préservant ainsi un rythme d'exploitation réaliste à travers les différentes époques historiques.

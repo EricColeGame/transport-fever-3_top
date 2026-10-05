@@ -1,0 +1,150 @@
+export const metadata = {
+  title: "Guide du Steam Workshop de Transport Fever 3 : Attentes de modding et assets",
+  description: "Explorez l'écosystème du Steam Workshop de Transport Fever 3, des gares modulaires au matériel roulant personnalisé, en passant par l'ordre de chargement et les performances.",
+  category: "modes",
+  date: "2026-10-05",
+};
+
+Les passionnés de simulation savent que le contenu généré par les utilisateurs transforme les grands titres de logistique en bâtisseurs d'empires intemporels. Alors que l'impatience grandit au sein de la communauté des transports, les joueurs se préparent activement à la manière dont le transport fever 3 steam workshop élèvera la liberté de création et la génération procédurale de cartes. S'approprier tôt le transport fever 3 steam workshop permet aux magnats du transport virtuel de maîtriser les pipelines d'assets, d'optimiser les ordres de chargement et de repousser les réseaux de transport bien au-delà des limites du jeu de base.
+
+Que vous souhaitiez des trains de passagers régionaux hyper détaillés, des corridors de fret industriel bruts ou des carrefours giratoires complexes à plusieurs niveaux, le modding reste le cœur battant de la franchise. Ci-dessous, nous détaillons ce que l'architecture de modding implique pour vos configurations, comment dépanner des empilements d'assets complexes et quelles fonctionnalités définiront le contenu communautaire.
+
+## L'évolution du modding à travers la série Transport Fever
+
+La franchise célèbre depuis longtemps la créativité de sa communauté. Urban Games a proposé une intégration de plus en plus solide au fil des ans, passant d'une extraction manuelle rudimentaire de fichiers à ses débuts à des abonnements transparents en un clic.
+
+Lorsque les créateurs communautaires sont passés de simples retexturations à des assets modulaires entièrement dynamiques, la profondeur de gameplay a explosé. Dans les opus précédents, ajouter une voie de garage ou un terminal de fret étendu nécessitait souvent d'installer un asset de bâtiment entièrement distinct. Avec les ensembles d'outils modernes, les joueurs s'attendent désormais à des scripts dynamiques, à la pose procédurale de voies en temps réel et à un câblage réaliste des caténaires dès le premier jour.
+
+Tirer parti du transport fever 3 steam workshop, c'est intégrer un écosystème bien établi où les moddeurs ont passé plus d'une décennie à perfectionner la physique du matériel roulant, la conception sonore et la logique de signalisation personnalisée.
+
+| Étape clé de la franchise | Méthode de distribution des mods | Types de mods dominants | Limite structurelle majeure |
+| :--- | :--- | :--- | :--- |
+| **Train Fever** | Copie manuelle dans les répertoires / premiers gestionnaires tiers | Recoloration simple de véhicules, maillages de gares rigides | Géométries de voies rigides, retours au bureau (CTD) fréquents |
+| **Transport Fever 1** | Débuts de l'intégration du Steam Workshop | Gares modulaires statiques, packs de trains régionaux | Scripting dynamique limité, expansion basique de la chaîne de fret |
+| **Transport Fever 2** | Steam Workshop natif et gestionnaire de mods intégré au jeu | Hubs passagers/fret entièrement modulaires, mods de script, refontes d'UI | Goulots d'étranglement de draw-calls du moteur sur scènes denses en 4K |
+| **Transport Fever 3 (Anticipé)** | Synchronisation cloud intégrée, vérification des dépendances en temps réel | Échangeurs procéduraux, terminaux multimodaux, planification IA avancée | Besoins accrus en VRAM pour les matériaux PBR à haut nombre de polygones |
+
+Les retours de la communauté montrent régulièrement que les joueurs passent des dizaines d'heures à organiser d'immenses bibliothèques d'assets avant même de poser leur premier kilomètre d'acier. Une intégration fluide sur le [Steam Community Workshop Hub](https://steamcommunity.com/workshop/) demeure la référence absolue en matière de visibilité, de gestion des versions et de mise à jour sans tracas des sauvegardes.
+
+## Catégories d'assets attendues sur le Steam Workshop de Transport Fever 3
+
+À chaque sortie d'un nouveau volet de simulation, la communauté de modding structure ses créations autour de piliers fonctionnels distincts. Dans le transport fever 3 steam workshop, ces catégories garantissent que les joueurs peuvent personnaliser indépendamment les détails esthétiques, le rythme économique et les infrastructures physiques.
+
+```
+Structure de l'écosystème de mods :
+├── Infrastructure de base (Gares, géométries de voies, ponts)
+├── Matériel roulant et flottes (Locomotives, véhicules routiers, aviation, navires)
+├── Scripts et automatisation (Horaires, régulation, logique personnalisée)
+└── Visuel et environnemental (Biomes, textures personnalisées, éléments de décor)
+```
+
+### 1. Matériel roulant et flottes régionales
+Chaque continent possède ses propres traditions ferroviaires, normes de signalisation et gabarits de chargement. Bien que les versions vanilla proposent des packs de départ équilibrés pour l'Europe, l'Amérique et l'Asie, les moddeurs comblent rapidement les vides historiques. Vous pouvez vous attendre à :
+
+*   Des locomotives à vapeur d'avant-guerre dotées de courbes d'effort de traction authentiques et d'effets de particules d'échappement réalistes.
+*   Des rames automotrices modernes à grande vitesse (EMU) équipées de bogies articulés sur mesure et de profils d'accélération réalistes.
+*   Des monstres diesel-électriques pour le transport lourd, configurés pour d'immenses convois de minéraux en vrac.
+*   Des flottes de transport urbain localisées, incluant des tramways à plancher bas, des trolleybus articulés et des bus à impériale.
+
+### 2. Infrastructure et modules de gare
+La conception contemporaine de réseaux exige une grande modularité. Plutôt que de choisir un modèle de gare figé, les bâtisseurs s'appuient sur des composants modulaires pour courber les quais autour des cols de montagne ou loger des terminaux de métro souterrains directement sous les gratte-ciel animés des centres-villes.
+
+### 3. Scripts, logique et ajustement économique
+Tous les mods ne sont pas visuels. Les régulateurs exigeants privilégient souvent la profondeur opérationnelle à la variété esthétique. Les mods de script ajustent les courbes de dépréciation de la maintenance, les algorithmes de croissance urbaine et les délais de décomposition du fret afin de créer des scénarios économiques impitoyables.
+
+| Catégorie de mod du Workshop | Empreinte mémoire typique | Principal avantage pour le joueur | Risque de corrompre les sauvegardes |
+| :--- | :--- | :--- | :--- |
+| **Packs de matériel roulant** | Élevée (500 Mo – 2 Go par pack) | Élargit la diversité visuelle à travers les époques | Minimal ; les modèles manquants sont remplacés par des substituts |
+| **Assets de gares modulaires** | Modérée (100 Mo – 400 Mo) | Longueurs de quai sur mesure, flux de passagers séparés | Modéré ; modifier l'emprise des gares peut invalider les lignes |
+| **Mods de trafic et d'IA scriptés** | Faible (< 50 Mo) | Espacement réaliste des véhicules, régulation prioritaire | Élevé ; les accès profonds au moteur peuvent causer des bugs après un patch |
+| **Textures d'environnement et de cartes** | Élevée (1 Go – 4 Go) | Ballast, végétation et eau photoréalistes | Faible ; simple remplacement visuel des shaders de terrain |
+| **Refontes économiques** | Minime (< 10 Mo) | Rentabilité hardcore, tarification réaliste des billets | Modéré ; nécessite une nouvelle partie ou un rééquilibrage minutieux de la flotte |
+
+## Organisation de l'ordre de chargement et optimisation des performances
+
+Une vaste collection d'ajouts communautaires apporte une variété indéniable, mais une installation désordonnée peut sérieusement faire chuter votre fréquence d'images. Parcourir le transport fever 3 steam workshop pendant des heures mène souvent à ce que les habitués de la simulation appellent « l'engorgement d'assets » (asset bloat).
+
+Lorsque des centaines de modèles de trains ultra-détaillés, des textures 4K haute résolution et des scripts sonores personnalisés s'exécutent simultanément, les ressources système sont lourdement sollicitées. Surveiller l'allocation de votre mémoire virtuelle et organiser votre ordre d'activation des mods permet d'éviter les plantages et les saccades.
+
+```
+Hiérarchie d'ordre de chargement recommandée :
+[1. Bibliothèques et frameworks de base] ➔ [2. Générateurs de terrain et de cartes] ➔ [3. Infrastructure et gares] ➔ [4. Véhicules et flottes] ➔ [5. Interface utilisateur et scripts de refonte]
+```
+
+### Stratégies d'optimisation essentielles
+1.  **Imposer des limites de textures :** Les assets à haut nombre de polygones sont époustouflants en gros plan dans les dépôts, mais des dizaines d'entre eux stationnés dans un hub central satureront la VRAM de votre GPU. Choisissez des variantes de textures compressées dès qu'elles sont disponibles.
+2.  **Vérifier les dépendances des assets :** Les structures complexes nécessitent souvent des bibliothèques de base conçues par la communauté. Abonnez-vous toujours aux packs d'utilitaires requis avant de charger les éléments modulaires individuels.
+3.  **Nettoyer les mods inactifs :** S'abonner à un asset le conserve sur votre disque, mais le laisser activé dans une sauvegarde oblige le moteur de jeu à garder en mémoire les scripts et les tables de configuration. Désactivez les packs régionaux non utilisés.
+
+| Symptôme / Erreur | Cause première | Action recommandée |
+| :--- | :--- | :--- |
+| **Saccades lors du zoom sur une ville** | Nombre de polygones excessif sur le mobilier urbain ou les bus | Réduire les distances de LOD ou supprimer les packs de décors |
+| **Plantage du jeu à 84 % du chargement** | Dépendance de script manquante ou conflit de mod d'UI | Consulter les journaux stdout.txt ; vérifier que les frameworks de base sont actifs |
+| **Textures roses / manquantes** | Chemin de matériau rompu ou compression incompatible | Réinstaller l'asset via le Workshop ; vider le cache des shaders |
+| **Explosion du lag dû à la population urbaine** | Multiplicateur de croissance urbaine moddé incontrôlé | Rétablir les paramètres du script de croissance vers les valeurs par défaut |
+| **Trains bloqués aux signaux** | Conflit de calcul d'itinéraire causé par une logique de signalisation sur mesure | Remplacer les scripts de signaux personnalisés par une signalisation de cantonnement standard |
+
+## Comment créer et publier du contenu personnalisé sur le Workshop
+
+La force vive de la communauté repose sur les créateurs passionnés qui conçoivent des assets remarquables de A à Z. Si vous envisagez d'apporter des modèles 3D ou des scripts fonctionnels au transport fever 3 steam workshop, vous familiariser avec les pipelines de production standards est capital.
+
+La création d'assets moderne requiert une topologie propre, des flux de travail en rendu physique réaliste (PBR) et des scripts de métadonnées soigneusement configurés en Lua.
+
+```
+Flux de développement d'assets :
+[Recherche de références] ➔ [Modélisation 3D (Blender)] ➔ [Texturation PBR (Substance)] ➔ [Scripting Lua] ➔ [Tests locaux] ➔ [Publication sur le Workshop]
+```
+
+### Le pipeline de production
+*   **Étape 1 : Références et géométrie :** Une mise à l'échelle précise est primordiale. Les créateurs conçoivent généralement des maillages à polygones faibles ou moyens dans des logiciels comme Blender, en définissant des niveaux de détail (LOD) distincts pour préserver les performances lors des vues éloignées.
+*   **Étape 2 : Textures et matériaux :** Le matériel de transport authentique présente de l'acier patiné, de la peinture usée, des marquages de sécurité et des vitres réfléchissantes. Configurer des cartes précises d'albédo, de rugosité, de métallicité et de normales assure des reflets réalistes sous un éclairage dynamique.
+*   **Étape 3 : Configuration et scripts :** Chaque asset nécessite un fichier de configuration `.mdl`. Ce fichier détermine la capacité en passagers, la puissance du moteur, la vitesse maximale, le coût d'achat et l'attribution des banques sonores.
+*   **Étape 4 : Tests et publication :** Avant de téléverser un élément sur le transport fever 3 steam workshop, les auteurs le testent sur une carte bac à sable isolée pour vérifier les boîtes de collision (bounding boxes), les animations des passagers et les émetteurs de fumée.
+
+| Étape de production | Outils principaux utilisés | Spécifications standard de l'asset |
+| :--- | :--- | :--- |
+| **Modélisation 3D et LODs** | Blender, 3ds Max | LOD0 (détail maximal proche caméra), LOD1, LOD2, LOD3 (silhouette basse résolution) |
+| **Dépliage UV et texturation** | Substance 3D Painter, Photoshop | Textures PBR 2048x2048 ou 4096x4096 (Albédo, Normales, Métal/Rugosité) |
+| **Ingénierie sonore** | Audacity, suites DAW | Boucles moteur fluides, grincements de freins, annonces de portes, avertisseurs |
+| **Scripting des métadonnées** | VS Code, Notepad++ | Fichiers `.lua` validés définissant les années de disponibilité, les coûts et liaisons de nœuds |
+| **Téléversement en jeu** | Outil d'export natif du Workshop | Miniature d'aperçu haute résolution (16:9), notes de mise à jour, attribution des tags |
+
+## Compatibilité des modes de jeu et styles de jeu moddés
+
+La gestion de transports moddée s'adapte à des philosophies de jeu radicalement opposées. Tandis que certains joueurs privilégient l'équilibre financier impitoyable, d'autres jouent purement comme des modélistes ferroviaires virtuels concevant des dioramas photoréalistes avec des fonds illimités.
+
+Sélectionner vos abonnements sur le transport fever 3 steam workshop dépend entièrement de la façon dont vous souhaitez jouer.
+
+```
+Distribution des archétypes de joueurs :
+├── Modélistes réalistes (Accessoires esthétiques, signalisation manuelle, répliques à l'échelle 1:1)
+├── Optimisation logistique (Économie exigeante, horaires dynamiques, forte capacité)
+└── Magnats narratifs (Progression historique de 1850 aux ères futuristes)
+```
+
+En mode Bac à sable, les joueurs désactivent généralement l'obsolescence des véhicules, débloquent l'argent infini et chargent des dizaines d'assets décoratifs tels que du mobilier de quai, des bancs de parc, des murs de soutènement et une flore sur mesure. Les moddeurs fournissent des centaines d'objets cosmétiques non fonctionnels spécialement conçus pour cette approche créative.
+
+À l'inverse, les joueurs relevant des scénarios ardus ou des campagnes de carrière procédurales doivent faire preuve de retenue. Intégrer du matériel roulant lourdement moddé dans une campagne de progression peut fausser l'équilibre si des locomotives personnalisées proposent des coûts d'exploitation irréalistes.
+
+| Mode / Style de jeu | Catégories de mods idéales | Restrictions recommandées | Objectif de gameplay principal |
+| :--- | :--- | :--- | :--- |
+| **Diorama Bac à sable pur** | Objets statiques, assets sans coût, brosses de terrain, caméra libre | Désactiver les scripts économiques ; prioriser la stabilité visuelle | Reconstitution photoréaliste de réseaux ferroviaires urbains et montagnards |
+| **Magnat Hardcore** | Industries complexes, refontes d'entretien, coûts d'exploitation élevés | Éviter les véhicules fantaisistes surpuissants à coûts dérisoires | Exploitation rentable du réseau avec des marges financières serrées |
+| **Progression historique** | Packs de véhicules verrouillés par époque, ballast historique, dépôts vapeur | Restreindre l'infrastructure électrique moderne jusqu'aux bonnes époques | Transition visuelle authentique de 1850 à nos jours |
+| **Réseau express de passagers** | Métros souterrains, viaducs surélevés, portillons d'accès automatisés | Veiller à ce que les capacités de passagers correspondent aux volumes urbains | Éliminer les embouteillages routiers dans les centres-villes |
+
+Dès que vous installez des mods modifiant les règles fondamentales depuis le transport fever 3 steam workshop, pensez à conserver des profils de sauvegarde distincts. Ainsi, la mise à jour défectueuse d'un script ne viendra jamais compromettre votre grande partie de carrière multi-époques.
+
+## Foire aux questions
+
+### Puis-je débloquer des succès tout en utilisant des mods du transport fever 3 steam workshop ?
+Dans la plupart des jeux de cette franchise, activer des mods communautaires désactive par défaut le suivi des succès pour préserver l'équité des classements. Cependant, la communauté publie fréquemment de petits scripts utilitaires qui réactivent en toute sécurité la progression des succès pour les joueurs désireux de combiner confort de jeu et accomplissements.
+
+### Comment récupérer un fichier de sauvegarde corrompu par un élément manquant du Workshop ?
+Si un créateur supprime un asset du transport fever 3 steam workshop, une sauvegarde existante référençant ce modèle peut générer une erreur au lancement. Vous pouvez résoudre ce problème en consultant le journal de plantage pour identifier l'ID manquant, en trouvant un mod de substitution « factice » (dummy) créé par la communauté, ou en utilisant un outil externe de gestion des mods pour rediriger le chemin du modèle manquant vers un asset de base du jeu.
+
+### Les mods créés pour les précédents opus fonctionneront-ils automatiquement dans Transport Fever 3 ?
+Non, les assets fonctionnent rarement sans adaptation. Bien que les maillages 3D et les textures brutes puissent souvent être convertis à l'aide de scripts créés par la communauté, les modifications apportées au moteur de rendu sous-jacent, aux shaders de matériaux et à la logique de configuration des véhicules exigent généralement des moddeurs qu'ils mettent à jour leurs fichiers pour un fonctionnement parfait.
+
+### Quelle est la méthode la plus sûre pour se désabonner de mods d'infrastructure complexes ?
+Avant de supprimer une voie, un signal ou un asset de gare modulaire téléchargé via le transport fever 3 steam workshop, chargez votre partie et détruisez au bulldozer chaque occurrence de cet élément sur votre carte. Une fois toutes les instances actives supprimées, sauvegardez votre partie, quittez le jeu, puis désabonnez-vous en toute sérénité.

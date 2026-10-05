@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "vehicles": "Vehicles",
+    "maps": "Maps",
+    "modes": "Modes",
+    "features": "Features",
+    "release": "Release"
   },
   "home": {
     "meta": {
@@ -407,13 +414,38 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Transport Fever 3 Guide",
+    "overviewDescription": "Beginner guide, tutorial, tips, troubleshooting and station design for new Transport Fever 3 players."
+  },
+  "mechanics": {
+    "overviewTitle": "Transport Fever 3 Mechanics",
+    "overviewDescription": "Industries, cargo supply chains, traffic systems, infrastructure, timetables and economy explained."
+  },
+  "vehicles": {
+    "overviewTitle": "Transport Fever 3 Vehicles",
+    "overviewDescription": "Full Transport Fever 3 vehicle list covering trains, trams, buses, trucks, ships, aircraft and helicopters."
+  },
+  "maps": {
+    "overviewTitle": "Transport Fever 3 Maps",
+    "overviewDescription": "Map sizes, maximum map size, climate zones and terrain options for every Transport Fever 3 playthrough."
+  },
+  "modes": {
+    "overviewTitle": "Transport Fever 3 Modes",
+    "overviewDescription": "Campaign, sandbox, tycoon, multiplayer, mods and Steam Workshop modes in Transport Fever 3."
+  },
+  "features": {
+    "overviewTitle": "Transport Fever 3 Features",
+    "overviewDescription": "New features, improvements over Transport Fever 2, day and night cycle, weather and what changed."
+  },
+  "release": {
+    "overviewTitle": "Transport Fever 3 Release",
+    "overviewDescription": "Release date, launch platforms, price, editions and the latest Transport Fever 3 news."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "Active Codes",
+    "browseCategories": "Browse Categories",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
-    "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
     "nextSteps": "Next Steps",
@@ -439,9 +471,9 @@
     "officialReddit": "Reddit Community",
     "vvBuilder": "Official Website",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "vehicleGuides": "Vehicle Guides",
+    "mechanicsGuides": "Mechanics Guides",
+    "mapsGuides": "Maps & Climate",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

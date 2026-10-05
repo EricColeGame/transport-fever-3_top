@@ -1,0 +1,152 @@
+export const metadata = {
+  title: "Mods de Transport Fever 3 : Guide complet des fonctionnalités, listes de souhaits et modding",
+  description: "Découvrez l'évolution attendue des mods de Transport Fever 3, incluant les améliorations du moteur, les souhaits de la communauté, l'ordre de chargement et les guides d'installation.",
+  category: "modes",
+  date: "2026-10-05",
+};
+
+Les passionnés de jeux de gestion tycoon savent qu'une communauté de créateurs dynamique peut transformer une simulation impressionnante en un bac à sable infini de gestion logistique. Pour les gestionnaires de transport impatients de découvrir la prochaine évolution de la franchise, discuter du potentiel des **mods de Transport Fever 3** représente bien plus qu'un simple vœu pieux : cela définit la façon dont nous construirons nos corridors de fret et nos réseaux de passagers pour la prochaine décennie. Alors que les attentes des joueurs augmentent au même rythme que les capacités matérielles, les **mods de Transport Fever 3** serviront sans aucun doute de moteur principal pour assurer la rejouabilité à long terme, la construction d'infrastructures réalistes et des modèles économiques dynamiques.
+
+Que vous soyez un planificateur d'itinéraires chevronné ou un nouveau venu fasciné par les postes d'aiguillage ferroviaires complexes, le modding comble le fossé entre les contraintes du jeu de base et des réseaux régionaux hyperréalistes. Voici une analyse détaillée de la manière dont le paysage du modding devrait évoluer, des outils attendus par les joueurs et de la façon dont les innovations de la communauté redéfiniront la franchise.
+
+---
+
+## Pourquoi les mods de Transport Fever 3 sont indispensables à l'expérience de simulation
+
+La franchise développée par Urban Games s'est toujours distinguée des city builders traditionnels en accordant la priorité au matériel roulant ultra-détaillé, aux mécaniques de signalisation précises et aux réseaux logistiques multimodaux. Cependant, les versions de base ne peuvent inclure qu'une sélection limitée d'époques historiques, de livrées régionales et de configurations de voies. C'est précisément là que les modifications créées par les utilisateurs transforment fondamentalement le jeu de base en un espace logistique sur mesure.
+
+Dans les opus précédents, les mods ont prolongé l'expérience bien après que les joueurs aient terminé les missions de la campagne principale. Qu'il s'agisse de kits de construction personnalisés permettant de bâtir des terminaux européens photoréalistes ou de rééquilibrages économiques minutieux, le contenu personnalisé élargit considérablement la durée de vie de la simulation. À chaque saut générationnel, le moteur sous-jacent doit devenir plus souple pour supporter la complexité géométrique et les exigences de script introduites par les créateurs tiers.
+
+Les retours de la communauté et l'expérience acquise sur les titres antérieurs confirment qu'une API de modding accessible et robuste réduit les plantages et autorise des scripts complexes, tels que des temps d'embarquement réalistes en gare et l'équilibrage automatisé des lignes.
+
+| Génération de la franchise | Principaux atouts du modding | Limites courantes du modding | Plateforme architecturale |
+| :--- | :--- | :--- | :--- |
+| **Train Fever** | Skins de véhicules basiques, maillages de voies simples | Intégration d'interface limitée, modèles de gares rigides | C++ propriétaire / Lua initial |
+| **Transport Fever** | Gares modulaires, industries personnalisées | Baisse notable des performances en fin de partie, modding routier basique | Moteur interne amélioré |
+| **Transport Fever 2** | Vaste prise en charge du Steam Workshop, aéroports modulaires, UI de ligne scriptable | Limites du multithreading (mono-cœur prédominant), scripts d'horaires rigides | Hybride Vulkan / OpenGL |
+| **Transport Fever 3 (Attendu)** | Exploitation native des processeurs multi-cœurs, logique procédurale des gares, horaires avancés | Exigences accrues en VRAM pour les modèles hautement polygonés | Moteur 64 bits multithread modernisé |
+
+---
+
+## Catégories incontournables des mods attendus pour Transport Fever 3
+
+La communauté du modding divise généralement le contenu personnalisé en plusieurs piliers fonctionnels distincts. Pour la prochaine génération de simulation logistique, les créateurs devraient dépasser le simple stade cosmétique pour proposer de profondes modifications systémiques.
+
+### 1. Matériel roulant et extensions de flottes régionales
+
+Les amateurs de locomotives figurent parmi les contributeurs les plus actifs des simulations de transport. Des modèles extrêmement détaillés, dotés d'une acoustique de moteur authentique, d'une interaction dynamique des pantographes avec les caténaires et d'intérieurs passagers fidèles, donnent vie à l'histoire ferroviaire. Les joueurs recherchent fréquemment des packs régionaux spécifiques représentant le fret lourd nord-américain, les corridors à grande vitesse Shinkansen japonais et les trains express transfrontaliers européens modernes.
+
+### 2. Infrastructures, voies et refonte des gares
+
+La pose de voies et la conception de pôles d'échange multiplateformes exigent des outils flexibles. Par le passé, les moddeurs ont su concevoir des sauts-de-mouton sur mesure, des gares en courbe, des traversées jonctions simples et des remblais routiers extra-larges. Pour les futurs projets d'infrastructure, les créateurs espèrent pouvoir intégrer des quais procéduraux capables de s'adapter naturellement aux topographies escarpées, sans collision de terrain ni falaises de remblai irréalistes.
+
+### 3. Rééquilibrages économiques et chaînes de production
+
+Les économies des campagnes standards simplifient souvent les chaînes d'approvisionnement en deux ou trois étapes de production seulement. Les adeptes de simulation pure s'appuient sur des mods économiques pour concevoir des boucles d'approvisionnement intriquées — exigeant par exemple du pétrole brut, de l'acier et des composants électroniques pour fabriquer des machines modernes. Ces refontes augmentent considérablement la difficulté financière, obligeant les gestionnaires à maîtriser les intervalles de passage et la longueur des convois pour éviter la faillite.
+
+| Catégorie de mod | Domaines cibles typiques | Impact sur le gameplay | Impact sur les performances |
+| :--- | :--- | :--- | :--- |
+| **Packs de véhicules** | Matériel roulant, bus régionaux, cargos de fret, jets régionaux | Authenticité visuelle et vitesses d'exploitation réalistes | Faible à modéré (VRAM des textures) |
+| **Éléments d'infrastructure** | Terminaux passagers modulaires, quais incurvés, triages ferroviaires | Débloque des tracés de voies complexes et des gares de triage réalistes | Modéré |
+| **Refontes économiques** | Chaînes d'approvisionnement complexes, ajustement de la demande de fret, refonte des emprunts | Augmente considérablement la complexité logistique et la planification stratégique | Faible (dépendant du CPU) |
+| **Qualité de vie (QoL)** | Gestionnaires de lignes en masse, outils de remplacement automatique, calques d'itinéraires | Simplifie la gestion de l'empire et réduit les micro-actions manuelles | Très faible |
+| **Visuels & Environnement** | Textures de terrain en 4K, météo dynamique, végétation personnalisée | Métamorphose le rendu visuel et le réalisme global | Élevé (dépendant du GPU/VRAM) |
+
+---
+
+## Frameworks, ordre de chargement des mods et optimisation des performances
+
+Même le moteur logistique le plus robuste peut montrer ses limites lorsque des centaines de ressources non optimisées sont injectées dans une sauvegarde. Une configuration appropriée des **mods de Transport Fever 3** nécessitera une bonne compréhension de la hiérarchie de chargement, des dépendances de scripts et de la gestion de la mémoire.
+
+Lorsque des centaines de véhicules, signaux et gares personnalisés se chargent simultanément, des conflits de ressources peuvent survenir si le moteur tente de lire des modèles de données redondants. Respecter une hiérarchie de chargement structurée permet d'éviter les retours au bureau impromptus et les anomalies de textures manquantes.
+
+```
+[Moteur du jeu de base / Frameworks globaux]
+       │
+       ▼
+[Utilitaires de script de base & Refontes de l'interface]
+       │
+       ▼
+[Ressources environnementales, de terrain et d'infrastructures ferroviaires]
+       │
+       ▼
+[Industrie, règles économiques et refontes des chaînes d'approvisionnement]
+       │
+       ▼
+[Packs de véhicules : Trains, tramways, véhicules routiers, navires, avions]
+       │
+       ▼
+[Livrées cosmétiques spécifiques, accessoires et détails de gare]
+```
+
+### Bonnes pratiques pour préserver la stabilité du jeu
+
+- **Surveillez l'usage de la VRAM :** Les textures en ultra-haute résolution appliquées au matériel roulant peuvent saturer rapidement la mémoire graphique sur les cartes de grande envergure abritant des dizaines de lignes actives.
+- **Isolez les éléments défectueux :** Si des plantages surviennent durant la génération de carte, désactivez par lots les derniers packs de véhicules ajoutés afin de détecter une géométrie corrompue ou un script défaillant.
+- **Conservez des sauvegardes saines :** Créez systématiquement une sauvegarde manuelle avant d'ajouter des mods d'infrastructure majeurs à une partie en cours.
+- **Évitez de retirer des scripts fondamentaux en pleine partie :** Supprimer d'une sauvegarde existante des mods régissant la logique industrielle ou la structure des quais peut corrompre irrémédiablement le système de recherche d'itinéraire logistique.
+
+| Niveau de priorité | Niveau hiérarchique du mod | Exemples d'éléments en jeu | Facteur de risque de stabilité |
+| :--- | :--- | :--- | :--- |
+| **Niveau 1 (Sommet)** | Bibliothèques de base & frameworks système | Frameworks d'interface étendue, passerelles API personnalisées | Élevé (dépendance globale du système) |
+| **Niveau 2** | Packs d'environnement & de terrain | Biomes sur mesure, shaders d'eau réalistes, textures de ballast | Faible à modéré |
+| **Niveau 3** | Réseaux & règles de voies | Mods de voies à grande vitesse, systèmes de troisième rail, caténaires | Élevé (dépendant de la carte) |
+| **Niveau 4** | Chaînes d'approvisionnement industrielles | Boucles de production multi-étapes, types de fret personnalisés | Élevé (corrompt les sauvegardes en cas de retrait) |
+| **Niveau 5** | Gares & dépôts | Terminaux de fret modulaires, quais voyageurs en courbe | Modéré |
+| **Niveau 6 (Base)** | Véhicules, livrées & accessoires de décor | Locomotives diesel, bus de transport urbain, bancs de gare | Faible |
+
+---
+
+## Gestion et installation des mods : Steam Workshop vs Installation manuelle
+
+Dans les simulations contemporaines, la facilité d'accès conditionne l'adoption d'un mod. Les joueurs s'appuient à la fois sur les écosystèmes de plateformes intégrées et sur des plateformes communautaires indépendantes pour enrichir leur expérience de jeu. Vous pouvez constater le dynamisme historique des créations de la communauté en parcourant le [Steam Community Workshop officiel](https://steamcommunity.com/app/1066780/workshop/), qui héberge des dizaines de milliers de créations d'utilisateurs dédiées à la franchise.
+
+### Plateformes intégrées
+
+Le Steam Workshop demeure la référence incontournable pour une installation simple et sans tracas. S'abonner à un contenu télécharge automatiquement les dépendances requises, applique les mises à jour des créateurs et synchronise vos fichiers d'un PC à l'autre. Pour les joueurs qui expérimentent des **mods de Transport Fever 3** encore en développement, ce mécanisme d'actualisation automatique garantit une compatibilité immédiate dès lors que les auteurs corrigent leurs scripts.
+
+### Répertoires manuels et sites communautaires
+
+Les portails communautaires spécialisés et les sites de fans proposent des utilitaires pointus, des scripts en version bêta et des ressources qui ne figurent pas toujours sur les plateformes grand public en raison de restrictions de licence ou de frameworks expérimentaux. L'installation manuelle offre aux utilisateurs avancés un contrôle millimétré sur les fichiers de configuration, les packs sonores personnalisés et la localisation des textes.
+
+| Fonctionnalité / Aspect | Intégration Steam Workshop | Installation manuelle d'archives | Gestionnaires de mods tiers |
+| :--- | :--- | :--- | :--- |
+| **Effort d'installation** | Abonnement en un clic | Extraction manuelle de dossiers dans les répertoires du jeu | Gestion via une interface logicielle externe |
+| **Gestion des mises à jour** | Mises à jour automatiques en arrière-plan | Nécessite de télécharger manuellement chaque nouvelle version | Détection semi-automatisée des versions |
+| **Alertes de dépendances** | Notifications natives pour les prérequis indispensables | Doivent être surveillées manuellement via les fichiers Readme | Variable selon le gestionnaire utilisé |
+| **Disponibilité hors ligne** | Nécessite la confirmation des fichiers locaux en cache | Entièrement hors ligne, aucune dépendance au cloud | Parfaitement opérationnel hors ligne |
+| **Configuration sur mesure** | Écrasée lors des mises à jour publiées par l'auteur | Préservée tant qu'elle n'est pas remplacée manuellement | Prend souvent en charge des profils de remplacement isolés |
+
+---
+
+## Ce que veulent les moddeurs : Les fonctionnalités de script de rêve pour la nouvelle génération
+
+La communauté a clairement fait part de ses priorités concernant les outils internes qu'elle souhaite voir intégrés nativement au prochain moteur. Si les jeux précédents ont permis une personnalisation esthétique et structurelle très poussée, la logique comportementale complexe est restée largement verrouillée au sein du code source.
+
+Les moddeurs rencontrent fréquemment des goulets d'étranglement lorsqu'ils tentent de concevoir de véritables horaires dynamiques. Dans les opus antérieurs, la régulation de l'espacement des véhicules reposait sur un équilibrage manuel des lignes ou sur de simples options d'attente de chargement complet. Les passionnés espèrent que les futures structures d'API permettront de scripter de vrais tableaux d'affichage des départs, des correspondances synchronisées entre lignes secondaires et des manœuvres de triage complexes dans les faisceaux ferroviaires.
+
+| Fonctionnalité d'API souhaitée | Limite actuelle dans les opus précédents | Avantage proposé pour le modding | Complexité technique |
+| :--- | :--- | :--- | :--- |
+| **Script d'horaires dynamiques** | Les lignes dépendent d'algorithmes d'espacement sommaires | Permet des horaires cadencés réalistes (Taktfahrplan) | Élevée |
+| **Manœuvres & attelage de rames** | Les convois circulent sous forme de rames indissociables | Découplage dynamique de locomotives et tri des wagons de marchandises | Très élevée |
+| **Courbure procédurale des quais** | Gares construites en sections rigides avec angles prédéfinis | Les gares épousent harmonieusement les rives des fleuves et le relief | Modérée |
+| **Logique de signalisation avancée** | Les signaux de cantonnement manquent de priorités configurables | Cantonnement avancé, circulation bidirectionnelle et règles strictes de priorité | Élevée |
+| **Chargement dynamique du fret** | Les conteneurs et caisses apparaissent instantanément | Portiques de levage animés, grues en action et tuyaux de chargement de fluides | Modérée |
+
+Lors de la modélisation de grands réseaux régionaux, la communauté réclame un contrôle fin sur la priorité des circulations. Si l'on pouvait ordonner par script à un train de marchandises de se garer sur une voie d'évitement pour laisser passer un express intercités prioritaire, le réalisme des flux logistiques franchirait un cap sans précédent. Avec l'évolution des outils de développement, le champ des **mods de Transport Fever 3** s'étendra bien au-delà de l'embellissement visuel pour devenir une véritable simulation industrielle d'opérations de transport.
+
+---
+
+## Foire aux questions sur les mods de Transport Fever 3
+
+### Les mods existants de Transport Fever 2 fonctionneront-ils sur Transport Fever 3 ?
+Historiquement, la rétrocompatibilité directe entre les différents épisodes de la licence demeure rare en raison des refontes structurelles du moteur, des nouveaux pipelines de rendu et de l'évolution des API de script. Si les maillages 3D peuvent souvent être convertis grâce à des scripts communautaires, les textures et les fichiers de configuration Lua nécessitent généralement une mise à jour directe par leurs auteurs pour tourner correctement sur le nouveau moteur.
+
+### Où les joueurs pourront-ils télécharger les mods de Transport Fever 3 les plus sûrs ?
+Le canal de distribution le plus sûr reste le Steam Workshop officiel, qui contrôle automatiquement l'intégrité des fichiers et isole les répertoires d'installation. De plus, les forums communautaires reconnus et les sites de référence constituent depuis longtemps des sources fiables pour obtenir des outils de modding tiers, des packs sonores et des collections de matériel ferroviaire historique.
+
+### Quel est l'impact des mods sur les performances lors de parties sur de très grandes cartes ?
+Les mods d'éléments visuels — en particulier les packs de trains très détaillés et les packs de textures 4K — sollicitent énormément la mémoire vidéo (VRAM). D'un autre côté, les modifications exploitant des scripts lourds, comme les chaînes de production étendues ou la signalisation complexe, chargent directement les cœurs du processeur (CPU) lorsque le moteur calcule en continu les itinéraires et les flux économiques de milliers d'agents simulés.
+
+### L'activation des mods bloque-t-elle les succès de la campagne ?
+Dans les titres précédents développés par Urban Games, l'activation de mods personnalisés sur une partie désactivait par défaut les succès afin de préserver l'équité des classements. Cependant, les moddeurs de la communauté conçoivent souvent de petits scripts utilitaires permettant de réactiver les succès en toute sécurité pour les joueurs qui souhaitent profiter de simples améliorations de confort de jeu au fil de leur campagne.

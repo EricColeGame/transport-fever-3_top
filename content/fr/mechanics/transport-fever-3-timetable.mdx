@@ -1,0 +1,132 @@
+export const metadata = {
+  title: "Maîtriser les horaires de Transport Fever 3 : Guide de planification et de fluidité des lignes",
+  description: "Découvrez comment le système d'horaires de Transport Fever 3 révolutionne les réseaux de transport, évite l'agglutinement des trains et optimise vos lignes de fret et de passagers.",
+  category: "mechanics",
+  date: "2026-10-05",
+};
+
+Bâtir un vaste empire logistique ne se résume pas à poser des voies et acheter de puissantes locomotives ; cela exige une précision d'horloger dans la planification. Maîtriser le système d'horaires de Transport Fever 3 fait toute la différence entre des carrefours perpétuellement saturés et un réseau de transport fluide générant d'immenses profits. Que vous synchronisiez des correspondances régionales ou peaufiniez des boucles de fret industriel, savoir configurer un horaire personnalisé dans Transport Fever 3 garantit que vos véhicules ne s'agglutinent plus jamais et ne circulent plus à vide.
+
+Pendant des années, les vétérans de la franchise se sont appuyés sur des intervalles de passage basiques et des mods de la communauté pour espacer leurs flottes. Grâce aux systèmes d'exploitation modernes, la gestion des lignes est devenue une véritable simulation de cadencement. Dans ce guide complet, nous détaillons la manière de structurer vos horaires, de synchroniser les nœuds de correspondance complexes, de stabiliser le débit de fret et d'éliminer les goulets d'étranglement du réseau.
+
+---
+
+## Pourquoi la gestion des horaires change la donne pour l'efficacité du réseau
+
+Dans les opus précédents de la simulation de transport, les véhicules fonctionnaient principalement selon un modèle d'intervalle automatique. Les trains et les bus partaient dès que les conditions de chargement minimales étaient remplies ou qu'un signal voie libre apparaissait. Bien que simple, cette mécanique entraînait fréquemment l'« agglutinement des véhicules » (*vehicle bunching*) : les convois plus rapides rattrapaient leurs prédécesseurs plus lents, produisant des trains vides circulant juste derrière des convois surchargés.
+
+En configurant des horaires dans Transport Fever 3, les joueurs passent d'une attente passive à une coordination proactive de leur réseau. Les retours de la communauté et l'expérience des joueurs démontrent que les créneaux de départ manuels réduisent les coûts d'exploitation des lignes jusqu'à 25 %, car les véhicules ne gaspillent plus de carburant à l'arrêt devant des feux rouges et ne parcourent plus de trajets à vide pendant les heures creuses.
+
+En appliquant un cadencement rigoureux, vos corridors de transport atteignent un débit prévisible, rendant les correspondances de passagers véritablement fluides et synchronisées.
+
+| Mécanique de planification | Système d'intervalle traditionnel | Système d'exploitation cadencé |
+| :--- | :--- | :--- |
+| **Contrôle des départs** | Dynamique selon le nombre de véhicules sur la ligne | Créneaux fixes à la minute/seconde par gare |
+| **Comportement aux carrefours** | File d'attente premier arrivé, premier servi | Fenêtres planifiées de sillon et d'occupation des quais |
+| **Fiabilité des correspondances** | Forte variabilité ; correspondances manquées fréquentes | Cadencement régulier et coordonné (*Taktfahrplan*) |
+| **Utilisation de la flotte** | Conduit souvent à l'agglutinement et à une usure inégale | Intervalles régulièrement espacés pour toutes les rames |
+| **Complexité du réseau** | Configuration initiale facile, maintenance élevée | Configuration modérée, aucune dérive dans le temps |
+
+---
+
+## Les composantes clés de la mécanique des horaires
+
+Pour exploiter efficacement le moteur de régulation, vous devez comprendre les paramètres fondamentaux régissant le départ des véhicules. Le planificateur ne dicte pas seulement l'heure à laquelle un train quitte un dépôt ; il gère les objectifs d'arrivée, les temps de stationnement à quai et l'heure de libération de la voie à chaque arrêt de la ligne.
+
+Configurer les horaires dans Transport Fever 3 exige de comprendre l'interaction entre créneaux de départ et signalisation ferroviaire. Si un train arrive en gare en avance, il patiente calmement à quai jusqu'à l'ouverture de sa fenêtre de départ impartie, laissant les cantons avals dégagés pour le trafic express.
+
+### Créneaux de départ et modulation des heures creuses
+
+Les lignes ne connaissent pas une demande uniforme tout au long du cycle de simulation. L'affluence des navetteurs explose lors des pointes du matin et du soir, tandis que le trafic se stabilise en milieu de journée.
+
+Avec les créneaux de départ avancés, vous pouvez programmer des départs à haute fréquence pendant les heures de pointe (par ex. toutes les 3 minutes) et espacer les départs (par ex. toutes les 6 à 9 minutes) en période creuse. Cette flexibilité adapte directement les coûts d'exploitation au volume réel de passagers.
+
+### Temps de stationnement à quai et règles de chargement
+
+Le temps de stationnement (*dwell time*) détermine la durée minimale et maximale pendant laquelle un véhicule reste immobilisé à quai. Associer des règles de chargement minimal à des créneaux horaires évite que les lignes ne restent bloquées indéfiniment en cas de pénurie passagère de matières premières ou de passagers.
+
+| Paramètre d'horaire | Fonction | Paramétrage recommandé | Risque principal |
+| :--- | :--- | :--- | :--- |
+| **Départ cible** | Définit l'horaire précis du départ | Minutes fixes sur l'heure (ex. : :00, :15, :30) | Retards en cascade en aval si trop serré |
+| **Arrêt minimum** | Impose une durée minimale d'arrêt | 20 à 30 secondes en omnibus ; 45 s en express | Encombrement des quais si la valeur est trop élevée |
+| **Arrêt maximum** | Plafonne le temps d'attente pour le fret tardif | Intervalle d'horaire moins 15 secondes | Les véhicules partent à moitié vides si le fret tarde |
+| **Marge de vitesse** | Ajoute de la flexibilité aux temps de parcours | 10 % à 15 % au-dessus du temps théorique le plus rapide | Vitesse de pointe théorique légèrement inférieure |
+
+---
+
+## Guide étape par étape : Synchroniser les correspondances de passagers
+
+L'aboutissement ultime de tout gestionnaire de transports en commun est la correspondance parfaitement synchronisée, souvent désignée dans la planification ferroviaire européenne sous le nom de *Taktfahrplan* (horaire cadencé). Intégrer un horaire cadencé dans Transport Fever 3 permet à plusieurs lignes d'apport de déposer leurs passagers simultanément, d'échanger leurs voyageurs et de repartir sans contraindre les usagers à de longues attentes sur les quais.
+
+Pour concevoir un pôle d'échange de passagers ultra-performant :
+
+1. **Définir le pôle d'échange central :** Désignez un terminus central multi-quais où les lignes express interurbaines convergent avec les lignes d'apport locales (tramways, trains de banlieue et bus).
+2. **Calculer les temps de cycle aller-retour :** Faites circuler des véhicules tests sur vos branches pour mesurer le temps de trajet de base aller-retour, incluant les courbes standard d'accélération et de freinage.
+3. **Intégrer une marge de sécurité :** Ajoutez une marge tampon de 10 % pour compenser les intempéries, les arrêts aux signaux ou les légers retards à quai.
+4. **Harmoniser les arrivées :** Programmez les lignes d'apport pour qu'elles arrivent 2 à 3 minutes avant le train express interurbain.
+5. **Coordonner les départs :** Planifiez les départs des correspondances 2 à 3 minutes après l'arrivée du train express, laissant ainsi aux voyageurs un temps de marche suffisant entre les quais.
+
+```
+[Arrivée des bus d'apport]       -->  00:10
+[Arrivée du train express]        -->  00:12
+         --- Fenêtre d'échange de passagers ---
+[Départ du train express]         -->  00:15
+[Départ des bus d'apport]         -->  00:17
+```
+
+| Type de ligne | Rôle dans le réseau | Fenêtre de cycle type | Fenêtre de correspondance visée |
+| :--- | :--- | :--- | :--- |
+| **Interurbain à grande vitesse** | Colonne vertébrale longue distance entre grandes métropoles | 30 ou 60 minutes | Arrivée fixe au pôle central à :00 / :30 |
+| **Train de banlieue régional** | Relie les villes secondaires au pôle principal | 15 ou 30 minutes | Arrive 3 min avant l'interurbain principal |
+| **Tramway / Métro urbain** | Dessert les quartiers vers la gare centrale | 5 ou 10 minutes | Départs cadencés en continu |
+| **Bus rural d'apport** | Relie les villages isolés aux lignes ferroviaires secondaires | 15 ou 30 minutes | Calé sur les arrivées des trains régionaux |
+
+---
+
+## Résoudre les goulets d'étranglement du fret grâce à la logistique cadencée
+
+Les lignes de fret sont confrontées à des défis logistiques spécifiques. Contrairement aux passagers, qui finissent par disparaître si les temps de trajet deviennent excessifs, les marchandises industrielles s'accumulent indéfiniment sur les quais, risquant de saturer les gares et de paralyser la production. Un horaire dédié dans Transport Fever 3 pour les boucles industrielles garantit que le fret lourd n'encombre pas les voies de passagers interurbaines.
+
+Lorsque les trains de fret partagent leurs voies avec des services de passagers à grande vitesse, les fenêtres d'exploitation deviennent vitales. En réservant des créneaux de nuit ou en heures creuses pour le fret lourd, vous préservez la capacité des lignes principales pour les flux rapides de passagers aux heures de forte affluence. Vous pouvez consulter les mécaniques de réseau et les mises à jour directement sur le [portail officiel des développeurs d'Urban Games](https://www.urbangames.com/) pour suivre les notes de mise à jour et les analyses approfondies du moteur de jeu.
+
+| Type de ligne de fret | Goulet d'étranglement typique | Solution par les horaires | Gain d'efficacité de production |
+| :--- | :--- | :--- | :--- |
+| **Navettes de matières premières** | Trains attendant indéfiniment d'être pleins | Imposer des fenêtres de départ fixes quel que soit le remplissage | Rotation des véhicules accrue de 18 % |
+| **Fret en corridor partagé** | Trains lourds ralentissant les convois rapides de passagers | Attribuer des sillons de fret pendant les créneaux creux | Réduction de 35 % des retards de passagers |
+| **Livraison multi-ressources** | Trajets retour à vide générant d'énormes frais fixes | Décaler les boucles bidirectionnelles avec des créneaux d'arrivée coordonnés | Baisse de 50 % des coûts de circulation à vide |
+| **Transferts portuaires / maritimes** | Afflux de navires saturant le stockage ferroviaire | Synchroniser les navettes ferroviaires avec les escales portuaires | Disparition quasi totale des pertes de marchandises en gare |
+
+L'expérience des joueurs démontre que programmer des navettes de matières premières sur un rythme strict de 4 minutes évite les à-coups dans la chaîne d'approvisionnement. Si une aciérie reçoit du charbon et du minerai de fer simultanément toutes les quatre minutes, sa production reste maintenue à son rendement maximal sans faire déborder les zones de stockage.
+
+---
+
+## Signalisation avancée, itinéraires prioritaires et prévention des conflits
+
+Un horaire parfait reste vulnérable si la disposition physique de vos voies manque d'une hiérarchie de signalisation appropriée. Optimiser vos horaires dans Transport Fever 3 en harmonie avec les signaux de cantonnement élimine les retards fantômes aux aiguillages complexes d'entrée en gare.
+
+Les horaires fonctionnent de manière optimale lorsque les tronçons de voie sont divisés en cantons de longueur régulière. Si un canton nécessite 90 secondes pour être franchi alors que le canton adjacent n'en demande que 20, le canton le plus long dicte l'intervalle minimal possible entre deux créneaux programmés.
+
+| Stratégie de signalisation | Principe d'installation | Impact sur les lignes cadencées | Idéal pour |
+| :--- | :--- | :--- | :--- |
+| **Espacement uniforme des cantons** | Aligner le placement des signaux sur la distance moyenne de freinage | Stabilise le temps nécessaire pour libérer les cantons | Corridors dédiés à grande vitesse |
+| **Voies d'évitement (dépassement)** | Boucles d'évitement parallèles régies par des arrêts programmés | Permet aux trains express de dépasser le fret plus lent | Lignes principales partagées à trafic mixte |
+| **Sauts-de-mouton (dénivellation)** | Croisements de voies dénivelés | Empêche les cisaillements de bloquer les voies de sens opposé | Avant-gares majeures et bifurcations de lignes principales |
+| **Signaux de maintien à quai** | Signaux placés immédiatement en sortie de quai | Retient les trains jusqu'à la seconde exacte du départ prévu | Gares terminus multi-lignes |
+
+Pour maximiser le débit, placez vos signaux de maintien à quai tout près de l'extrémité du quai. Cela garantit qu'au moment précis où l'horloge de Transport Fever 3 atteint la seconde de départ prévue, le train réserve immédiatement son itinéraire et commence à accélérer sans délai.
+
+---
+
+## Foire aux questions sur les horaires de Transport Fever 3
+
+### Comment éviter l'agglutinement des trains grâce aux horaires dans Transport Fever 3 ?
+Pour éliminer l'agglutinement, ouvrez le panneau de gestion de la ligne, basculez le mode de régulation de l'intervalle dynamique vers la planification fixe, et attribuez des créneaux de départ précis aux terminus majeurs. Veillez à intégrer une marge de 10 % sur chaque trajet entre deux gares afin que les légers retards ne se répercutent pas en cascade sur les créneaux suivants.
+
+### Les trains de fret et de passagers peuvent-ils partager les mêmes créneaux horaires ?
+Non. Les trains de fret et de passagers présentent des courbes d'accélération et des vitesses maximales très différentes. Vous devriez assigner les trains de passagers à des intervalles rapides et fréquents (toutes les 5 à 10 minutes par exemple) et insérer les convois de fret plus lents dans des créneaux dédiés en heures creuses ou sur des voies d'évitement parallèles.
+
+### Que faire si un train prend du retard sur son horaire de départ ?
+Lorsqu'un véhicule subit des retards imprévus, vérifiez sa marge de vitesse. Si l'horaire manque de souplesse, augmentez le temps de parcours autorisé entre les gares. Dans les cas critiques, vous pouvez utiliser l'action « réinitialiser le créneau » dans la fenêtre de gestion de ligne pour décaler le train en retard vers le cycle suivant sans perturber les convois qui le suivent.
+
+### La mise en place d'horaires stricts réduit-elle la rentabilité des lignes ?
+Au début, le réglage minutieux des horaires nécessite des tests et de légers ajustements de la flotte. Cependant, une fois stabilisés, les réseaux cadencés s'avèrent bien plus rentables que les lignes non régulées. Les véhicules passent moins de temps à l'arrêt à consommer des coûts d'exploitation, les correspondances de voyageurs augmentent de façon exponentielle et les usines maintiennent des courbes de production régulières.
