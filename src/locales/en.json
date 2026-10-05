@@ -13,8 +13,8 @@
   },
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Transport Fever 3 Wiki — Vehicles, Guides, Industries & Mods",
+      "description": "Complete Transport Fever 3 guide with beginner tips, vehicle lists, industry supply chains, maps, campaign walkthroughs, mods and proven network strategies."
     },
     "hero": {
       "eyebrow": "Transport Tycoon Simulation",
@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Transport Fever 3 Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core mechanics, build your first profitable freight line and understand loans and signaling before you expand."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Make Money Fast",
+          "description": "Build short, high-margin freight chains and avoid empty return trips to grow your company balance steadily."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Industry & Supply Chains",
+          "description": "Understand extraction, processing and manufacturing tiers so factories keep shipping at full output."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Rail Signals & Stations",
+          "description": "Master block signals, dual one-way track and modular station layouts to prevent late-game gridlock."
         }
       ]
     },
@@ -66,265 +66,337 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Vehicle List",
+        "Industry Guide",
+        "Mods & Workshop"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
-        },
-        {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "description": "Core mechanics, first profitable freight line, loans and rail signaling explained step by step.",
+          "href": "/guide/transport-fever-3-beginner-guide"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Vehicle List",
+          "description": "Every train, tram, bus, truck, ship, aircraft and helicopter across the transport eras.",
+          "href": "/vehicles/transport-fever-3-vehicle-list"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "Guide",
+          "title": "Industry Guide",
+          "description": "Extraction, processing and manufacturing chains with conversion ratios and upgrade thresholds.",
+          "href": "/mechanics/transport-fever-3-industries"
         },
         {
           "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Station Design",
+          "description": "Modular platforms, track throats and freight separation for high-throughput rail hubs.",
+          "href": "/guide/transport-fever-3-station-design"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Maps & Biomes",
+          "description": "Map sizes, climate zones and terrain that shape every logistics network.",
+          "href": "/maps/transport-fever-3-map"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Guide",
+          "title": "Campaign Overview",
+          "description": "Every historical era, mission structure and bonus objective in the story campaign.",
+          "href": "/modes/transport-fever-3-campaign"
+        },
+        {
+          "badge": "Popular",
+          "title": "Mods & Workshop",
+          "description": "Vehicle packs, station assets, economic rebalances and the in-game mod browser.",
+          "href": "/modes/transport-fever-3-mods"
+        },
+        {
+          "badge": "Tips",
+          "title": "Tips and Tricks",
+          "description": "Signals, cash flow, hub design and data overlays for a smoother transport empire.",
+          "href": "/guide/transport-fever-3-tips"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Transport Fever 3?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Transport Fever 3 is a transport tycoon simulation from Urban Games where you build and manage rail, road, sea and air networks across more than 120 years of transport history. Plan freight supply chains, connect cities and industries, and grow a company from a single depot into a continent-spanning logistics empire.",
+        "The game ships with 300+ vehicles, procedurally generated maps and climate zones, story campaigns, sandbox and multiplayer modes, plus a built-in mod browser and map editor. Our wiki covers every system with beginner guides, vehicle lists, industry chains, station design and proven network strategies."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Urban Games"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC, PS5, Xbox"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Transport Simulation"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Release Date",
+          "value": "Sep 29, 2026"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Vehicles",
+          "value": "300+"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Transport History",
+          "value": "120+ Years"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Steam Reviews",
+          "value": "1,700+"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Transport Fever 3 Wiki",
+      "description": "Browse every Transport Fever 3 system: beginner routes, vehicles, transport networks, industries, maps, campaigns, mods and expert tips.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Transport Fever 3 Beginner Guide",
+          "description": "Get your first profitable network running with core mechanics, freight routes, finances and signaling explained step by step.",
+          "href": "/guide/transport-fever-3-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Plan before you spend — pause the game and study the contour and land-use overlays before laying track."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Start with freight — short, linear road or rail chains earn steady income before passenger lines."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Keep chains simple — move raw materials to a processing plant, then finished goods into a city."
+            },
+            {
+              "label": "4",
+              "detail": "Protect cash flow — hold reserves or reinvest in high-yield freight instead of repaying your loan early."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Transport Fever 3 Vehicles",
+          "description": "Compare trains, trams, buses, trucks, ships, aircraft and helicopters by capacity, cost and the routes they serve best.",
+          "href": "/vehicles/transport-fever-3-vehicles",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Rail",
+              "detail": "High-capacity locomotives and wagons for bulk freight and intercity passenger corridors."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Road",
+              "detail": "Flexible trucks and buses handle first-mile collection and last-mile city distribution."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Maritime",
+              "detail": "Ships and barges move heavy bulk cargo and bridge island gaps at a low unit cost."
+            },
+            {
+              "label": "Aviation",
+              "detail": "Aircraft deliver fast long-distance passengers and high-value cargo over rough terrain."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
-          "displayType": "tier-grid",
+          "name": "Transport Fever 3 Transport Guide",
+          "description": "Design road, rail, sea and air networks that stay efficient as traffic grows, from signal spacing to modular station hubs.",
+          "href": "/guide/transport-fever-3-station-design",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "1",
+              "detail": "Dual one-way track — build dedicated up and down lines on mainline corridors to avoid deadlocks."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "2",
+              "detail": "Signal spacing — place block signals roughly 1.5 train lengths apart on straight track."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "3",
+              "detail": "Clean junctions — keep crossings clear and separate freight flows from passenger traffic."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "4",
+              "detail": "Modular hubs — dedicate platforms to express, commuter and freight services, with grade-separated flyovers."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Transport Fever 3 Industry Guide",
+          "description": "Follow raw materials through processing and manufacturing to keep every factory shipping and every city supplied.",
+          "href": "/mechanics/transport-fever-3-industries",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "Tier 1",
+              "detail": "Extraction — logs, iron ore, coal, crude oil, grain and stone feed the whole supply chain."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Tier 2",
+              "detail": "Processing — mills, refineries and plants convert raw inputs into planks, steel and refined oil."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Tier 3",
+              "detail": "Manufacturing — advanced plants build tools, machines, goods, fuel and food for city districts."
+            },
+            {
+              "label": "2:2:1",
+              "detail": "A steel mill consumes two iron ore and two coal to yield one unit of steel."
+            },
+            {
+              "label": "80%",
+              "detail": "Keep shipping above 70–80% of output to trigger factory upgrades instead of downgrades."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Transport Fever 3 Maps",
+          "description": "Choose the right map size, climate zone and terrain for your network, from compact commuter maps to transcontinental layouts.",
+          "href": "/maps/transport-fever-3-map",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "S",
+              "detail": "Megalomaniac (1:4–1:5) — 35+ towns for transcontinental express runs and massive classification yards."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "A",
+              "detail": "Large (1:2–1:3) — 20–30 towns ideal for multi-tiered passenger rail and freight terminals."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "B",
+              "detail": "Medium (1:1–1:2) — 12–18 towns, perfect for regional hubs and interconnected freight loops."
+            },
+            {
+              "label": "C",
+              "detail": "Small (1:1) — 6–10 towns, best for local bus routes and short-haul commuter trains."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Transport Fever 3 Campaign",
+          "description": "Work through every historical era, mission objective and bonus task in the story-driven Transport Fever 3 campaign.",
+          "href": "/modes/transport-fever-3-campaign",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Pioneers",
+              "detail": "Era 1 (1850–1900) — steam locomotives and wagons hug contours to beat steep terrain."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Industry",
+              "detail": "Era 2 (1900–1950) — heavy freight rail and trams serve dense manufacturing webs."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Modern",
+              "detail": "Era 3 (1950+) — electrified mainlines, air cargo hubs and high-speed passenger rail."
+            },
+            {
+              "label": "Bonus",
+              "detail": "Optional milestones and bonus tasks reward efficient, well-balanced transport networks."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Transport Fever 3 Mods",
+          "description": "Expand the base game with community vehicle packs, station assets, economic overhauls and scripting tools.",
+          "href": "/modes/transport-fever-3-mods",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Vehicles",
+              "detail": "Rolling stock packs add regional locomotives, buses, freighters and regional jets."
+            },
+            {
+              "label": "Stations",
+              "detail": "Infrastructure assets unlock curved platforms, railyards and modular passenger terminals."
+            },
+            {
+              "label": "Economy",
+              "detail": "Economic rebalances deepen production chains and raise the financial difficulty."
+            },
+            {
+              "label": "Tools",
+              "detail": "Scripting and timetable mods automate line balancing and realistic boarding times."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Transport Fever 3 Tips and Tricks",
+          "description": "Fast, practical advice on signals, cash flow, hub design and data overlays to keep your transport empire running smoothly.",
+          "href": "/guide/transport-fever-3-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Signals",
+              "detail": "Space block signals at 1.5 train lengths and keep junction fouling points clear."
+            },
+            {
+              "label": "Cash Flow",
+              "detail": "Avoid deadheading, match fleet size to supply and reinvest in high-yield freight."
+            },
+            {
+              "label": "Hubs",
+              "detail": "Separate freight, commuter and express platforms, and use flyovers at busy junctions."
+            },
+            {
+              "label": "Overlays",
+              "detail": "Use contour, land-use and cargo-flow layers to diagnose bottlenecks before you build."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "title": "Transport Fever 3 FAQ",
+      "description": "Quick answers to the most common questions about Transport Fever 3.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Transport Fever 3?",
+          "answer": "Transport Fever 3 is a transport tycoon simulation from Urban Games. You build rail, road, sea and air networks, manage freight supply chains and grow a transport company across 120+ years of history. It released on September 29, 2026 for PC, PS5 and Xbox."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Transport Fever 3 beginner friendly?",
+          "answer": "Yes. Start with short freight routes such as grain or oil, keep supply chains simple and study the contour and land-use overlays before spending money on track. Our Transport Fever 3 beginner guide walks through your first profitable line."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How do I make money fast in Transport Fever 3?",
+          "answer": "Prioritize short, high-demand freight chains with fast turnaround times, avoid empty return trips and match fleet capacity to factory output. Reinvesting in high-yield freight lines beats paying off your starting loan early."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What platforms is Transport Fever 3 available on?",
+          "answer": "Transport Fever 3 is available on PC, PlayStation 5 and Xbox, and it supports cross-platform mod sharing through the in-game mod browser and Steam Workshop."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Does Transport Fever 3 support mods?",
+          "answer": "Yes. Transport Fever 3 includes a built-in mod browser and map editor, with community vehicle packs, station assets, economic rebalances and scripting tools expanding the base game."
+        },
+        {
+          "question": "How many vehicles are in Transport Fever 3?",
+          "answer": "Transport Fever 3 features more than 300 vehicles spanning trains, trams, buses, trucks, ships, aircraft and helicopters across its historical eras."
         }
       ]
     },
