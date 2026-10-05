@@ -1,10 +1,10 @@
 {
   "site": {
-    "name": "My Seafood Stand Wiki",
-    "shortName": "My Seafood Stand",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to My Seafood Stand on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-    "legalNotice": "Non-official fan wiki. Made by players, for players."
+    "name": "Transport Fever 3 Wiki",
+    "shortName": "TF3 Wiki",
+    "tagline": "Vehicles, Industries, Mods & Transport Networks",
+    "description": "Transport Fever 3 Wiki with vehicle lists, beginner guides, industries, transport networks, campaigns, mods, maps, tips, and detailed gameplay information for tycoons.",
+    "legalNotice": "Non-official Transport Fever 3 fan wiki. Made by players, for players."
   },
   "nav": {
     "races": "Races",
@@ -30,19 +30,19 @@
       "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "My Seafood Stand",
-      "description": "Master your restaurant in My Seafood Stand on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Transport Tycoon Simulation",
+      "title": "Transport Fever 3 Wiki",
+      "description": "Build and manage a massive transport empire across land, sea, and air with trains, buses, trucks, ships, aircraft, industries, cities, campaigns, sandbox systems and cross-platform mod support.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "300+ Vehicles",
+        "120+ Years of Transport History",
+        "1,700+ Steam Reviews",
+        "Sep 29, 2026 Release Date"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
-      "tertiaryCta": "Active Codes",
-      "videoLabel": "Official media"
+      "secondaryCta": "Vehicle & Transport Guides",
+      "tertiaryCta": "Play on Steam",
+      "videoLabel": "Official trailer"
     },
     "updates": {
       "title": "Latest Updates",
@@ -342,10 +342,10 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master My Seafood Stand?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Master Transport Fever 3?",
+      "description": "From your first rail line to a continent-spanning transport empire, our community wiki has you covered with free, up-to-date guides.",
       "primary": "Read the Beginner Guide",
-      "secondary": "Play on Roblox"
+      "secondary": "Play on Steam"
     }
   },
   "bosses": {
@@ -379,17 +379,18 @@
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
   "footer": {
-    "aboutTitle": "My Seafood Stand Wiki",
-    "about": "My Seafood Stand Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "aboutTitle": "Transport Fever 3 Wiki",
+    "about": "Transport Fever 3 Wiki is an independent fan-built guide hub covering vehicles, industries, transport networks, campaigns, mods, maps, and essential game knowledge for new and veteran players alike.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 My Seafood Stand Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play My Seafood Stand",
-    "officialDiscord": "Official Discord",
+    "copyright": "2026 Transport Fever 3 Wiki. Not affiliated with Urban Games, Good Shepherd Entertainment, or the official Transport Fever 3 team.",
+    "description": "Build and manage a transport empire across land, sea, and air in Transport Fever 3.",
+    "playGame": "Play on Steam",
+    "officialDiscord": "Community Discord",
     "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
+    "officialReddit": "Reddit Community",
+    "vvBuilder": "Official Website",
     "beginnerGuide": "Beginner Guide",
     "raceGuides": "Race Guides",
     "bossGuides": "Boss Guides",
