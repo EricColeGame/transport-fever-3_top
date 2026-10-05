@@ -34,6 +34,6 @@ export const siteConfig: SiteConfig = {
     youtube: "https://www.youtube.com/@TransportFeverGame",
     reddit: "https://www.reddit.com/r/TransportFever3/",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "de", "fr", "ja"],
   defaultLocale: "en",
 };

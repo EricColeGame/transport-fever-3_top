@@ -1,1 +1,480 @@
-{}
+{
+  "site": {
+    "name": "Transport Fever 3 Wiki",
+    "shortName": "TF3 Wiki",
+    "tagline": "Fahrzeuge, Industrien, Mods & Transportnetze",
+    "description": "Transport Fever 3 Wiki mit Fahrzeuglisten, Einsteiger-Guides, Industrien, Transportnetzen, Kampagnen, Mods, Karten, Tipps und detaillierten Gameplay-Informationen für Tycoons.",
+    "legalNotice": "Inoffizielles Transport Fever 3 Fan-Wiki. Von Spielern für Spieler."
+  },
+  "nav": {
+    "home": "Startseite",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln",
+    "guide": "Guide",
+    "mechanics": "Mechaniken",
+    "vehicles": "Fahrzeuge",
+    "maps": "Karten",
+    "modes": "Modi",
+    "features": "Features",
+    "release": "Release"
+  },
+  "home": {
+    "meta": {
+      "title": "Transport Fever 3 Wiki — Fahrzeuge, Guides, Industrien & Mods",
+      "description": "Kompletter Transport Fever 3 Guide mit Einsteiger-Tipps, Fahrzeuglisten, Industrie-Lieferketten, Karten, Kampagnen-Walkthroughs, Mods und erprobten Netzwerkstrategien."
+    },
+    "hero": {
+      "eyebrow": "Transport-Tycoon-Simulation",
+      "title": "Transport Fever 3 Wiki",
+      "description": "Baue und verwalte ein riesiges Transportimperium zu Land, zu Wasser und in der Luft mit Zügen, Bussen, Lkw, Schiffen, Flugzeugen, Industrien, Städten, Kampagnen, Sandbox-Systemen und plattformübergreifender Mod-Unterstützung.",
+      "stats": [
+        "300+ Fahrzeuge",
+        "120+ Jahre Transportgeschichte",
+        "1.700+ Steam-Reviews",
+        "Release am 29. Sep. 2026"
+      ],
+      "primaryCta": "Einsteiger-Guide",
+      "secondaryCta": "Fahrzeug- & Transport-Guides",
+      "tertiaryCta": "Auf Steam spielen",
+      "videoLabel": "Offizieller Trailer"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Guides durchsuchen",
+      "viewAll": "Alle anzeigen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Deine Transport Fever 3 Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteiger-Guide",
+          "description": "Lerne die Kernmechaniken, baue deine erste profitable Frachtlinie und verstehe Kredite und Signalsysteme, bevor du expandierst."
+        },
+        {
+          "number": "2",
+          "title": "Schnell Geld verdienen",
+          "description": "Baue kurze, margenstarke Frachtketten und vermeide Leerfahrten, um dein Firmenguthaben stetig zu steigern."
+        },
+        {
+          "number": "3",
+          "title": "Industrie & Lieferketten",
+          "description": "Verstehe die Stufen Abbau, Verarbeitung und Fertigung, damit Fabriken mit voller Leistung liefern."
+        },
+        {
+          "number": "4",
+          "title": "Eisenbahnsignale & Bahnhöfe",
+          "description": "Meistere Blocksignale, doppelte Einbahnstrecken und modulare Bahnhofslayouts, um spätes Gridlock zu verhindern."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Gerade angesagt",
+      "quickLinks": [
+        "Einsteiger-Guide",
+        "Fahrzeugliste",
+        "Industrie-Guide",
+        "Mods & Workshop"
+      ],
+      "cards": [
+        {
+          "badge": "Einsteiger",
+          "title": "Einsteiger-Guide",
+          "description": "Kernmechaniken, erste profitable Frachtlinie, Kredite und Eisenbahnsignale Schritt für Schritt erklärt.",
+          "href": "/guide/transport-fever-3-beginner-guide"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Fahrzeugliste",
+          "description": "Jeder Zug, jede Straßenbahn, jeder Bus, Lkw, jedes Schiff, Flugzeug und jeder Hubschrauber über alle Transportepochen.",
+          "href": "/vehicles/transport-fever-3-vehicle-list"
+        },
+        {
+          "badge": "Guide",
+          "title": "Industrie-Guide",
+          "description": "Abbau-, Verarbeitungs- und Fertigungsketten mit Umrechnungsverhältnissen und Upgrade-Schwellen.",
+          "href": "/mechanics/transport-fever-3-industries"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Bahnhofsdesign",
+          "description": "Modulare Bahnsteige, Gleisvorfelder und Frachttrennung für leistungsstarke Bahnknoten.",
+          "href": "/guide/transport-fever-3-station-design"
+        },
+        {
+          "badge": "Neu",
+          "title": "Karten & Biome",
+          "description": "Kartengrößen, Klimazonen und Gelände, die jedes Logistiknetz prägen.",
+          "href": "/maps/transport-fever-3-map"
+        },
+        {
+          "badge": "Guide",
+          "title": "Kampagnen-Überblick",
+          "description": "Jede historische Epoche, Missionsstruktur und Bonusziele der Story-Kampagne.",
+          "href": "/modes/transport-fever-3-campaign"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Mods & Workshop",
+          "description": "Fahrzeugpakete, Bahnhofs-Assets, Wirtschafts-Rebalances und der Ingame-Mod-Browser.",
+          "href": "/modes/transport-fever-3-mods"
+        },
+        {
+          "badge": "Tipps",
+          "title": "Tipps und Tricks",
+          "description": "Signale, Cashflow, Hub-Design und Daten-Overlays für ein reibungsloseres Transportimperium.",
+          "href": "/guide/transport-fever-3-tips"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Transport Fever 3?",
+      "paragraphs": [
+        "Transport Fever 3 ist eine Transport-Tycoon-Simulation von Urban Games, in der du über mehr als 120 Jahre Transportgeschichte hinweg Schienen-, Straßen-, See- und Luftnetze aufbaust und verwaltest. Plane Frachtlieferketten, verbinde Städte und Industrien und entwickle ein Unternehmen von einem einzigen Depot zu einem kontinentübergreifenden Logistikimperium.",
+        "Das Spiel bietet über 300 Fahrzeuge, prozedural generierte Karten und Klimazonen, Story-Kampagnen, Sandbox- und Mehrspielermodi sowie einen integrierten Mod-Browser und Karteneditor. Unser Wiki deckt jedes System ab – mit Einsteiger-Guides, Fahrzeuglisten, Industrieketten, Bahnhofsdesign und erprobten Netzwerkstrategien."
+      ],
+      "stats": [
+        {
+          "label": "Entwickler",
+          "value": "Urban Games"
+        },
+        {
+          "label": "Plattform",
+          "value": "PC, PS5, Xbox"
+        },
+        {
+          "label": "Genre",
+          "value": "Transportsimulation"
+        },
+        {
+          "label": "Release-Datum",
+          "value": "29. Sep. 2026"
+        },
+        {
+          "label": "Fahrzeuge",
+          "value": "300+"
+        },
+        {
+          "label": "Transportgeschichte",
+          "value": "120+ Jahre"
+        },
+        {
+          "label": "Steam-Reviews",
+          "value": "1.700+"
+        }
+      ],
+      "cta": "Alle Guides entdecken"
+    },
+    "explore": {
+      "title": "Transport Fever 3 Wiki entdecken",
+      "description": "Durchsuche jedes System von Transport Fever 3: Einsteigerrouten, Fahrzeuge, Transportnetze, Industrien, Karten, Kampagnen, Mods und Expertentipps.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Transport Fever 3 Einsteiger-Guide",
+          "description": "Bringe dein erstes profitables Netz zum Laufen – Kernmechaniken, Frachtrouten, Finanzen und Signalsysteme Schritt für Schritt erklärt.",
+          "href": "/guide/transport-fever-3-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Vor dem Ausgeben planen — pausiere das Spiel und studiere die Höhenlinien- und Flächennutzungs-Overlays, bevor du Gleise legst."
+            },
+            {
+              "label": "2",
+              "detail": "Mit Fracht starten — kurze, lineare Straßen- oder Schienenketten erwirtschaften stetiges Einkommen vor Personenlinien."
+            },
+            {
+              "label": "3",
+              "detail": "Ketten einfach halten — bringe Rohstoffe zu einem Verarbeitungswerk und dann Fertigwaren in eine Stadt."
+            },
+            {
+              "label": "4",
+              "detail": "Cashflow schützen — halte Reserven oder reinvestiere in ertragreiche Fracht, statt deinen Kredit früh zurückzuzahlen."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Transport Fever 3 Fahrzeuge",
+          "description": "Vergleiche Züge, Straßenbahnen, Busse, Lkw, Schiffe, Flugzeuge und Hubschrauber nach Kapazität, Kosten und den besten Routen.",
+          "href": "/vehicles/transport-fever-3-vehicles",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Schiene",
+              "detail": "Hochkapazitive Lokomotiven und Wagen für Massengutfracht und interurbane Personenkorridore."
+            },
+            {
+              "label": "Straße",
+              "detail": "Flexible Lkw und Busse übernehmen die erste Meile der Sammlung und die letzte Meile der Stadtverteilung."
+            },
+            {
+              "label": "Seefahrt",
+              "detail": "Schiffe und Binnenschiffe bewegen schwere Massengüter und überbrücken Inseln zu geringen Stückkosten."
+            },
+            {
+              "label": "Luftfahrt",
+              "detail": "Flugzeuge befördern schnelle Langstreckenpassagiere und hochwertige Fracht über raues Gelände."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Transport Fever 3 Transport-Guide",
+          "description": "Entwirf Straßen-, Schienen-, See- und Luftnetze, die bei wachsendem Verkehr effizient bleiben – von Signalabständen bis zu modularen Bahnhofsknoten.",
+          "href": "/guide/transport-fever-3-station-design",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Doppelte Einbahnstrecke — baue getrennte Hin- und Rückfahrlinien auf Hauptkorridoren, um Deadlocks zu vermeiden."
+            },
+            {
+              "label": "2",
+              "detail": "Signalabstand — platziere Blocksignale auf gerader Strecke etwa 1,5 Zuglängen voneinander entfernt."
+            },
+            {
+              "label": "3",
+              "detail": "Saubere Kreuzungen — halte Kreuzungspunkte frei und trenne Frachtströme vom Personenverkehr."
+            },
+            {
+              "label": "4",
+              "detail": "Modulare Knoten — weise Bahnsteige Express-, Nahverkehrs- und Frachtdiensten zu, mit kreuzungsfreien Überführungen."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Transport Fever 3 Industrie-Guide",
+          "description": "Verfolge Rohstoffe durch Verarbeitung und Fertigung, damit jede Fabrik liefert und jede Stadt versorgt wird.",
+          "href": "/mechanics/transport-fever-3-industries",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Stufe 1",
+              "detail": "Abbau — Holz, Eisenerz, Kohle, Rohöl, Getreide und Stein speisen die gesamte Lieferkette."
+            },
+            {
+              "label": "Stufe 2",
+              "detail": "Verarbeitung — Sägewerke, Raffinerien und Werke wandeln Rohstoffe in Bretter, Stahl und raffiniertes Öl um."
+            },
+            {
+              "label": "Stufe 3",
+              "detail": "Fertigung — fortgeschrittene Werke bauen Werkzeuge, Maschinen, Güter, Treibstoff und Nahrung für Stadtviertel."
+            },
+            {
+              "label": "2:2:1",
+              "detail": "Ein Stahlwerk verbraucht zwei Eisenerz und zwei Kohle, um eine Einheit Stahl zu erzeugen."
+            },
+            {
+              "label": "80%",
+              "detail": "Halte den Versand über 70–80 % der Produktion, um Fabrik-Upgrades statt Downgrades auszulösen."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Transport Fever 3 Karten",
+          "description": "Wähle die richtige Kartengröße, Klimazone und Gelände für dein Netz – von kompakten Pendlerkarten bis zu transkontinentalen Layouts.",
+          "href": "/maps/transport-fever-3-map",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Megalomaniac (1:4–1:5) — 35+ Städte für transkontinentale Expressläufe und riesige Rangierbahnhöfe."
+            },
+            {
+              "label": "A",
+              "detail": "Groß (1:2–1:3) — 20–30 Städte, ideal für mehrstufige Personenbahnen und Frachtterminals."
+            },
+            {
+              "label": "B",
+              "detail": "Mittel (1:1–1:2) — 12–18 Städte, perfekt für regionale Knoten und verbundene Frachtschleifen."
+            },
+            {
+              "label": "C",
+              "detail": "Klein (1:1) — 6–10 Städte, am besten für lokale Buslinien und Kurzstrecken-Pendlerzüge."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Transport Fever 3 Kampagne",
+          "description": "Arbeite jede historische Epoche, jedes Missionsziel und jede Bonusaufgabe der storygetriebenen Transport Fever 3 Kampagne durch.",
+          "href": "/modes/transport-fever-3-campaign",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Pioniere",
+              "detail": "Epoche 1 (1850–1900) — Dampflokomotiven und Wagen folgen Höhenlinien, um steiles Gelände zu bezwingen."
+            },
+            {
+              "label": "Industrie",
+              "detail": "Epoche 2 (1900–1950) — schwere Güterbahnen und Straßenbahnen bedienen dichte Fertigungsnetze."
+            },
+            {
+              "label": "Moderne",
+              "detail": "Epoche 3 (1950+) — elektrifizierte Hauptstrecken, Luftfrachtknoten und Hochgeschwindigkeits-Personenbahnen."
+            },
+            {
+              "label": "Bonus",
+              "detail": "Optionale Meilensteine und Bonusaufgaben belohnen effiziente, ausgewogene Transportnetze."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Transport Fever 3 Mods",
+          "description": "Erweitere das Basisspiel mit Community-Fahrzeugpaketen, Bahnhofs-Assets, Wirtschaftsüberholungen und Skriptwerkzeugen.",
+          "href": "/modes/transport-fever-3-mods",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Fahrzeuge",
+              "detail": "Rollmaterialpakete fügen regionale Lokomotiven, Busse, Frachter und Regionaljets hinzu."
+            },
+            {
+              "label": "Bahnhöfe",
+              "detail": "Infrastruktur-Assets schalten geschwungene Bahnsteige, Rangierbahnhöfe und modulare Personenterminals frei."
+            },
+            {
+              "label": "Wirtschaft",
+              "detail": "Wirtschafts-Rebalances vertiefen Produktionsketten und erhöhen den finanziellen Schwierigkeitsgrad."
+            },
+            {
+              "label": "Werkzeuge",
+              "detail": "Skript- und Fahrplanmods automatisieren Linienausgleich und realistische Einsteigezeiten."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Transport Fever 3 Tipps und Tricks",
+          "description": "Schnelle, praktische Ratschläge zu Signalen, Cashflow, Hub-Design und Daten-Overlays, damit dein Transportimperium reibungslos läuft.",
+          "href": "/guide/transport-fever-3-tips",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Signale",
+              "detail": "Setze Blocksignale im Abstand von 1,5 Zuglängen und halte Kreuzungspunkte frei."
+            },
+            {
+              "label": "Cashflow",
+              "detail": "Vermeide Leerfahrten, passe die Flottengröße an das Angebot an und reinvestiere in ertragreiche Fracht."
+            },
+            {
+              "label": "Knoten",
+              "detail": "Trenne Fracht-, Nahverkehrs- und Expressbahnsteige und nutze Überführungen an belebten Kreuzungen."
+            },
+            {
+              "label": "Overlays",
+              "detail": "Nutze Höhenlinien-, Flächennutzungs- und Güterfluss-Ebenen, um Engpässe vor dem Bau zu erkennen."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Transport Fever 3 FAQ",
+      "description": "Schnelle Antworten auf die häufigsten Fragen zu Transport Fever 3.",
+      "items": [
+        {
+          "question": "Was ist Transport Fever 3?",
+          "answer": "Transport Fever 3 ist eine Transport-Tycoon-Simulation von Urban Games. Du baust Schienen-, Straßen-, See- und Luftnetze auf, verwaltest Frachtlieferketten und lässt ein Transportunternehmen über mehr als 120 Jahre Geschichte wachsen. Es erschien am 29. September 2026 für PC, PS5 und Xbox."
+        },
+        {
+          "question": "Ist Transport Fever 3 einsteigerfreundlich?",
+          "answer": "Ja. Beginne mit kurzen Frachtrouten wie Getreide oder Öl, halte Lieferketten einfach und studiere die Höhenlinien- und Flächennutzungs-Overlays, bevor du Geld für Gleise ausgibst. Unser Einsteiger-Guide führt dich durch deine erste profitable Linie."
+        },
+        {
+          "question": "Wie verdiene ich in Transport Fever 3 schnell Geld?",
+          "answer": "Priorisiere kurze, stark nachgefragte Frachtketten mit schnellen Umschlagzeiten, vermeide Leerfahrten und passe die Flottenkapazität an die Fabrikproduktion an. Die Reinvestition in ertragreiche Frachtlinien ist besser, als deinen Startkredit früh abzuzahlen."
+        },
+        {
+          "question": "Auf welchen Plattformen ist Transport Fever 3 verfügbar?",
+          "answer": "Transport Fever 3 ist für PC, PlayStation 5 und Xbox verfügbar und unterstützt plattformübergreifendes Mod-Teilen über den Ingame-Mod-Browser und den Steam Workshop."
+        },
+        {
+          "question": "Unterstützt Transport Fever 3 Mods?",
+          "answer": "Ja. Transport Fever 3 enthält einen integrierten Mod-Browser und Karteneditor, mit Community-Fahrzeugpaketen, Bahnhofs-Assets, Wirtschafts-Rebalances und Skriptwerkzeugen, die das Basisspiel erweitern."
+        },
+        {
+          "question": "Wie viele Fahrzeuge gibt es in Transport Fever 3?",
+          "answer": "Transport Fever 3 bietet über 300 Fahrzeuge – Züge, Straßenbahnen, Busse, Lkw, Schiffe, Flugzeuge und Hubschrauber über alle historischen Epochen."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Transport Fever 3 zu meistern?",
+      "description": "Von deiner ersten Bahnstrecke bis zu einem kontinentübergreifenden Transportimperium – unser Community-Wiki bietet dir kostenlose, aktuelle Guides.",
+      "primary": "Einsteiger-Guide lesen",
+      "secondary": "Auf Steam spielen"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Transport Fever 3 Guide",
+    "overviewDescription": "Einsteiger-Guide, Tutorial, Tipps, Fehlerbehebung und Bahnhofsdesign für neue Transport Fever 3 Spieler."
+  },
+  "mechanics": {
+    "overviewTitle": "Transport Fever 3 Mechaniken",
+    "overviewDescription": "Industrien, Frachtlieferketten, Verkehrssysteme, Infrastruktur, Fahrpläne und Wirtschaft erklärt."
+  },
+  "vehicles": {
+    "overviewTitle": "Transport Fever 3 Fahrzeuge",
+    "overviewDescription": "Vollständige Transport Fever 3 Fahrzeugliste mit Zügen, Straßenbahnen, Bussen, Lkw, Schiffen, Flugzeugen und Hubschraubern."
+  },
+  "maps": {
+    "overviewTitle": "Transport Fever 3 Karten",
+    "overviewDescription": "Kartengrößen, maximale Kartengröße, Klimazonen und Geländeoptionen für jeden Transport Fever 3 Durchlauf."
+  },
+  "modes": {
+    "overviewTitle": "Transport Fever 3 Modi",
+    "overviewDescription": "Kampagne, Sandbox, Tycoon, Mehrspieler, Mods und Steam Workshop Modi in Transport Fever 3."
+  },
+  "features": {
+    "overviewTitle": "Transport Fever 3 Features",
+    "overviewDescription": "Neue Features, Verbesserungen gegenüber Transport Fever 2, Tag-und-Nacht-Zyklus, Wetter und was sich geändert hat."
+  },
+  "release": {
+    "overviewTitle": "Transport Fever 3 Release",
+    "overviewDescription": "Release-Datum, Launch-Plattformen, Preis, Editionen und die neuesten Transport Fever 3 News."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "browseCategories": "Kategorien durchsuchen",
+    "updated": "Aktualisiert",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Ähnliche Lektüre",
+    "relatedGuides": "Ähnliche Guides",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Startseite",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Transport Fever 3 Wiki",
+    "about": "Transport Fever 3 Wiki ist ein unabhängiger, von Fans erstellter Guide-Hub zu Fahrzeugen, Industrien, Transportnetzen, Kampagnen, Mods, Karten und wichtigem Spielwissen für neue und erfahrene Spieler.",
+    "quickLinks": "Schnelllinks",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Transport Fever 3 Wiki. Nicht verbunden mit Urban Games, Good Shepherd Entertainment oder dem offiziellen Transport Fever 3 Team.",
+    "description": "Baue und verwalte ein Transportimperium zu Land, zu Wasser und in der Luft in Transport Fever 3.",
+    "playGame": "Auf Steam spielen",
+    "officialDiscord": "Community-Discord",
+    "officialYoutube": "Offizielles YouTube",
+    "officialReddit": "Reddit-Community",
+    "vvBuilder": "Offizielle Website",
+    "beginnerGuide": "Einsteiger-Guide",
+    "vehicleGuides": "Fahrzeug-Guides",
+    "mechanicsGuides": "Mechanik-Guides",
+    "mapsGuides": "Karten & Klima",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}
