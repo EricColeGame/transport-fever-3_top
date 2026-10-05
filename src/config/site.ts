@@ -19,18 +19,18 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Transport Fever 3 Wiki",
+  shortName: "TF3 Wiki",
+  logoText: "TF",
+  tagline: "Vehicles, Guides, Mods & Transport Networks",
+  description: "Your ultimate Transport Fever 3 wiki! Explore vehicle lists, beginner guides, industries, transport networks, campaigns, maps, mods, and gameplay tips for the ultimate transport tycoon.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://transport-fever-3.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://transport-fever-3.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://store.steampowered.com/app/3493540/Transport_Fever_3/",
+  heroVideoId: "HcI60a6PbdI", // Transport Fever 3 - Cinematic Announcement Trailer (official)
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://discord.com/game/transport-fever-460542812124086272",
+    youtube: "https://www.youtube.com/@TransportFeverGame",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
